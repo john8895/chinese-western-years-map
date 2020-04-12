@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b9f5b88-5f86-409e-ae5d-587b7fac41a7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/chinese-western.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinese-western-years-map.js" beforeDir="false" afterPath="$PROJECT_DIR$/chinese-western-years-map.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +17,7 @@
       <list>
         <option value="JavaScript File" />
         <option value="SCSS File" />
+        <option value="package.json" />
       </list>
     </option>
   </component>
@@ -66,7 +70,7 @@
       <updated>1586681544092</updated>
       <workItem from="1586681546152" duration="6988000" />
       <workItem from="1586694829583" duration="1012000" />
-      <workItem from="1586698751471" duration="606000" />
+      <workItem from="1586698751471" duration="6737000" />
     </task>
     <servers />
   </component>
