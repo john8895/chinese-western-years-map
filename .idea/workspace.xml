@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b9f5b88-5f86-409e-ae5d-587b7fac41a7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/chinese-western-years-map.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chinese-western-years-map.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style.css.map" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +49,16 @@
       <recent name="D:\Github\chinese-western-years-map" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/chinese-western-years-map/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -61,18 +69,57 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586681544092</updated>
-      <workItem from="1586681546152" duration="203000" />
+      <workItem from="1586681546152" duration="1798000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="110" y="324" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586682025383">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="110" y="324" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1024.-39.1024.1280/0.0.1920.1200@0.0.1920.1200" timestamp="1586682025383" />
     <state x="116" y="445" key="EditFileWatcherDialog" timestamp="1586681748460">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="116" y="445" key="EditFileWatcherDialog/-1024.-39.1024.1280/0.0.1920.1200@0.0.1920.1200" timestamp="1586681748460" />
+    <state width="1225" height="335" key="GridCell.Tab.0.bottom" timestamp="1586682086373">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1225" height="335" key="GridCell.Tab.0.bottom/-1024.-39.1024.1280/0.0.1920.1200@0.0.1920.1200" timestamp="1586682086373" />
+    <state width="1225" height="335" key="GridCell.Tab.0.center" timestamp="1586682086373">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1225" height="335" key="GridCell.Tab.0.center/-1024.-39.1024.1280/0.0.1920.1200@0.0.1920.1200" timestamp="1586682086373" />
+    <state width="1225" height="335" key="GridCell.Tab.0.left" timestamp="1586682086373">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1225" height="335" key="GridCell.Tab.0.left/-1024.-39.1024.1280/0.0.1920.1200@0.0.1920.1200" timestamp="1586682086373" />
+    <state width="1225" height="335" key="GridCell.Tab.0.right" timestamp="1586682086373">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1225" height="335" key="GridCell.Tab.0.right/-1024.-39.1024.1280/0.0.1920.1200@0.0.1920.1200" timestamp="1586682086373" />
+    <state width="1225" height="335" key="GridCell.Tab.1.bottom" timestamp="1586682086374">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1225" height="335" key="GridCell.Tab.1.bottom/-1024.-39.1024.1280/0.0.1920.1200@0.0.1920.1200" timestamp="1586682086374" />
+    <state width="1225" height="335" key="GridCell.Tab.1.center" timestamp="1586682086374">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1225" height="335" key="GridCell.Tab.1.center/-1024.-39.1024.1280/0.0.1920.1200@0.0.1920.1200" timestamp="1586682086374" />
+    <state width="1225" height="335" key="GridCell.Tab.1.left" timestamp="1586682086374">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1225" height="335" key="GridCell.Tab.1.left/-1024.-39.1024.1280/0.0.1920.1200@0.0.1920.1200" timestamp="1586682086374" />
+    <state width="1225" height="335" key="GridCell.Tab.1.right" timestamp="1586682086374">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1225" height="335" key="GridCell.Tab.1.right/-1024.-39.1024.1280/0.0.1920.1200@0.0.1920.1200" timestamp="1586682086374" />
     <state x="1" y="311" key="SettingsEditor" timestamp="1586681749181">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>

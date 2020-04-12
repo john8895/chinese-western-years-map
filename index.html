@@ -12,8 +12,9 @@
         <div class="row">
             <button onclick="topFunction()" id="gotopBtn" title="Go to top">Top</button>
             <h1>中西曆年號歲次快速查詢對照表</h1>
-            <div class="form-group col-sm-12">
-                <input type="text" class="form-control" placeholder="請輸入搜尋文字，如西元年、民國年、年號或歲次" id="filterText"
+            <hr>
+            <div class="form-group col-md-7 filter-group">
+                <input type="text" class="form-control" placeholder="請輸入欲搜尋的中文或數字，如西元年、民國年、年號或歲次" id="filterText"
                        onkeyup="filterList()">
             </div>
             <div class="table-responsive">
@@ -27,7 +28,7 @@
                         <th scope="col">西元</th>
                         <th scope="col">清朝</th>
                         <th scope="col">民國</th>
-                        <th scope="col">日本號</th>
+                        <th scope="col">日本年號</th>
                         <th scope="col">歲次</th>
                     </tr>
                     </thead>

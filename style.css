@@ -1,9 +1,34 @@
-#gotopBtn {
+.year-wrap {
+  font-family: "Microsoft JhengHei";
+}
+.year-wrap h1 {
+  font-size: 22px;
+  line-height: 2.5;
+  text-align: center;
+  display: block;
+  width: 100%;
+  margin-bottom: 0;
+}
+.year-wrap hr {
+  border: 0;
+  clear: both;
+  display: block;
+  width: 96%;
+  background-color: #ddd;
+  height: 1px;
+  margin: 5px 0 1.5rem;
+}
+.year-wrap .filter-group {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+.year-wrap #gotopBtn {
   position: fixed;
   bottom: 20px;
   right: 30px;
   z-index: 99;
-  font-size: 18px;
+  font-size: 13px;
   border: none;
   outline: none;
   background-color: #00BCD4;
@@ -15,11 +40,27 @@
   height: 40px;
   text-align: center;
   transition: 0.3s ease-in-out 0.1s;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.53);
+  opacity: 0.85;
+}
+.year-wrap #gotopBtn:hover {
+  background-color: #00a5bb;
+  transition: 0.3s ease-in-out 0.1s;
+  opacity: 1;
 }
 
-#gotopBtn:hover {
-  background-color: #555;
-  transition: 0.3s ease-in-out 0.1s;
+.year-wrap table thead th {
+  text-align: center;
+}
+.year-wrap table tbody td {
+  text-align: center;
+}
+.year-wrap table caption {
+  padding-top: 30px;
+}
+.year-wrap table caption em {
+  font-size: 12px;
+  font-style: normal;
 }
 
 /*# sourceMappingURL=style.css.map */

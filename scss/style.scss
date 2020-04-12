@@ -1,28 +1,81 @@
 .year-wrap {
+    font-family: "Microsoft JhengHei";
 
+    h1 {
+        font-size: 22px;
+        line-height: 2.5;
+        text-align: center;
+        display: block;
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    hr {
+        border: 0;
+        clear: both;
+        display: block;
+        width: 96%;
+        background-color: #ddd;
+        height: 1px;
+        margin: 5px 0 1.5rem;
+    }
+
+    .filter-group {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+    }
+
+    #gotopBtn {
+        position: fixed;
+        bottom: 20px;
+        right: 30px;
+        z-index: 99;
+        font-size: 13px;
+        border: none;
+        outline: none;
+        background-color: #00BCD4;
+        color: white;
+        cursor: pointer;
+        padding: 0;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        transition: .3s ease-in-out .1s;
+        box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.53);
+        opacity: 0.85;
+
+        &:hover {
+            background-color: darken(#00BCD4,5%);
+            transition: .3s ease-in-out .1s;
+            opacity: 1;
+        }
+    }
 }
 
-#gotopBtn {
-    position: fixed;
-    bottom: 20px;
-    right: 30px;
-    z-index: 99;
-    font-size: 18px;
-    border: none;
-    outline: none;
-    background-color: #00BCD4;
-    color: white;
-    cursor: pointer;
-    padding: 0;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    text-align: center;
-    transition: .3s ease-in-out .1s;
-}
+//table
+.year-wrap {
+    table {
+        thead {
+            th {
+                text-align: center;
+            }
+        }
 
-#gotopBtn:hover {
-    background-color: #555;
-    transition: .3s ease-in-out .1s;
+        tbody {
+            td {
+                text-align: center;
+            }
+        }
 
+        caption {
+            padding-top: 30px;
+
+            em {
+                font-size: 12px;
+                font-style: normal;
+            }
+        }
+    }
 }
