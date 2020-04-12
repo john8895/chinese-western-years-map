@@ -52,6 +52,24 @@
   display: none;
 }
 
+footer .copyright {
+  display: inline-block;
+  font-size: 12px;
+  text-align: center;
+  margin: 0 0 0 10px;
+  color: #a7a7a7;
+  background-color: rgba(0, 0, 0, 0.85);
+  padding: 10px 15px 6px;
+  border-radius: 5px 5px 0 0;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.27);
+}
+footer .copyright a {
+  color: #c1c1c1;
+}
+footer .copyright a:hover {
+  color: #fff;
+}
+
 .year-wrap table thead th {
   text-align: center;
 }
