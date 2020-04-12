@@ -21,7 +21,7 @@
 .year-wrap .filter-group {
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 .year-wrap #gotopBtn {
   position: fixed;
@@ -47,6 +47,9 @@
   background-color: #00a5bb;
   transition: 0.3s ease-in-out 0.1s;
   opacity: 1;
+}
+.year-wrap #prompt {
+  display: none;
 }
 
 .year-wrap table thead th {
