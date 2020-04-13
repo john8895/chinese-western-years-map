@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b9f5b88-5f86-409e-ae5d-587b7fac41a7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/chinese-western.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chinese-western-years-map.js" beforeDir="false" afterPath="$PROJECT_DIR$/chinese-western-years-map.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -71,6 +70,7 @@
       <workItem from="1586681546152" duration="6988000" />
       <workItem from="1586694829583" duration="1012000" />
       <workItem from="1586698751471" duration="6737000" />
+      <workItem from="1586739734300" duration="4270000" />
     </task>
     <servers />
   </component>
