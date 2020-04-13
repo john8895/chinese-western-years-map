@@ -43,45 +43,55 @@ function filterList() {
         // const prompt = document.getElementById('prompt');
         // prompt.style.display = limit > 0 ? "none" : "table-row";
     }
+}
 
+function getLunar() {
+    const output = document.getElementById('getLunar');
+    let iframe = document.createElement('iframe');
+    setAttributes(iframe,{
+        src: 'https://sinocal.sinica.edu.tw/'
+    })
+    output.appendChild(iframe);
 
 }
 
-(function getTableData() {
-    let table = document.getElementById('year-table');
-    let theadTr = table.getElementsByTagName('thead')[0].getElementsByTagName('tr')[0];
-    let tbodyTrObj = table.getElementsByTagName('tbody')[0].getElementsByTagName('tr');
-    // console.log(tYear);
-
-    for (let i = 0; i < tbodyTrObj.length; i++) {
-        let tYear = tbodyTrObj[i].getElementsByTagName('td')[0];
-        let yearText = tYear.textContent || tYear.innerText;
-        tYear.setAttribute('data-year', yearText);
-
-        let tdNew = document.createElement('td');
-        let btnNew = document.createElement('input');
-        setAttributes(btnNew, {
-            type: 'button',
-            value: '轉農曆',
-            onclick: 'changeLunar(this)',
-            class: 'btn btn-primary btn-sm'
-        });
-        tdNew.appendChild(btnNew);
-        tbodyTrObj[i].prepend(tdNew);
-    }
-
-})();
+// (function getTableData() {
+//     let table = document.getElementById('year-table');
+//     let theadTr = table.getElementsByTagName('thead')[0].getElementsByTagName('tr')[0];
+//     let tbodyTrObj = table.getElementsByTagName('tbody')[0].getElementsByTagName('tr');
+//     // console.log(tYear);
+//
+//     for (let i = 0; i < tbodyTrObj.length; i++) {
+//         let tYear = tbodyTrObj[i].getElementsByTagName('td')[0];
+//         let yearText = tYear.textContent || tYear.innerText;
+//         tYear.setAttribute('data-year', yearText);
+//
+//         let tdNew = document.createElement('td');
+//         let btnNew = document.createElement('input');
+//         setAttributes(btnNew, {
+//             type: 'button',
+//             value: '轉農曆',
+//             onclick: 'changeLunar(this)',
+//             class: 'btn btn-primary btn-sm'
+//         });
+//         tdNew.appendChild(btnNew);
+//         tbodyTrObj[i].prepend(tdNew);
+//     }
+//
+// })();
 
 /*
 * -------------------
 * 農曆轉換
 * -------------------
 */
-function changeLunar(thisItem) {
-    let filterYear = thisItem.parentElement.parentElement.getElementsByTagName('td')[1].getAttribute('data-year');
-    let inputYear = document.getElementById('u_year');
-    inputYear.innerText = parseInt(filterYear);
-}
+// function changeLunar(thisItem) {
+//     let filterYear = thisItem.parentElement.parentElement.getElementsByTagName('td')[1].getAttribute('data-year');
+//     let inputYear = document.getElementById('u_year');
+//     let inputMonth = document.getElementById('u_month');
+//     inputYear.value = filterYear;
+//     inputMonth.focus();
+// }
 
 /*
 * -------------------
@@ -89,14 +99,23 @@ function changeLunar(thisItem) {
 * -------------------
 */
 function solarToLunar() {
-//指定日期生成國曆對象  參考文件：http://6tail.cn/calendar/api.html#solar.lunar.html
-    var solar = Solar.fromYmd(1920, 2, 1);
-    //取得農曆對象
-    var date = solar.getLunar();
-    console.log(date);
-    console.log(date.getYear() + "年" + date.getMonth() + "月" + date.getDay() + "日");
-    console.log(date.getYearInChinese() + date.getMonthInChinese() + date.getDayInChinese());
-    console.log(date.toFullString());
+    let iYear = parseInt(document.getElementById('u_year').value);
+    let iMonth = parseInt(document.getElementById('u_month').value);
+    let iDay = parseInt(document.getElementById('u_day').value);
+
+    // console.log(`${iYear} . ${iMonth} . ${iDay}`);
+    //
+    // console.log(typeof iYear);
+
+    //指定日期生成國曆對象  參考文件：http://6tail.cn/calendar/api.html#solar.lunar.html
+    // var solar = Solar.fromYmd(1902, 2, 1);
+    // // var solar = Solar.fromYmd(iYear, iMonth, iDay);
+    // //取得農曆對象
+    // var date = solar.getLunar();
+    // console.log(date);
+    // console.log(date.getYear() + "年" + date.getMonth() + "月" + date.getDay() + "日");
+    // console.log(date.getYearInChinese() + date.getMonthInChinese() + date.getDayInChinese());
+    // console.log(date.toFullString());
 }
 
 function getLunarDay(listYear) {
@@ -104,19 +123,19 @@ function getLunarDay(listYear) {
     let uMonth = parseInt(document.getElementById('u_month').value);
     let uDay = parseInt(document.getElementById('u_day').value);
     let lunarOutput = document.getElementById('lunarOutput');
-    console.log(parseInt(listYear));
-
-    let clickYear = parseInt(listYear);
+    // console.log(parseInt(listYear));
+    //
+    // let clickYear = parseInt(listYear);
     // uYear = uYear !== 0 ? uYear : parseInt(listYear);
     // console.log(typeof uYear);
 
 
-    let getLunar = calendar.solar2lunar(clickYear, uMonth, uDay);
-    let str = `你輸入的是：西元${uYear}年${uMonth}月${uDay}日`;
-    // console.log(str);
-    let lunarStr = `換算農曆：清宣宗道光3年(歲次${getLunar.gzYear})${getLunar.lMonth}月${getLunar.lDay}日`;
-    lunarOutput.innerText = lunarStr;
-    console.log(lunarStr);
+    // let getLunar = calendar.solar2lunar(clickYear, uMonth, uDay);
+    // let str = `你輸入的是：西元${uYear}年${uMonth}月${uDay}日`;
+    // // console.log(str);
+    // let lunarStr = `換算農曆：清宣宗道光3年(歲次${getLunar.gzYear})${getLunar.lMonth}月${getLunar.lDay}日`;
+    // lunarOutput.innerText = lunarStr;
+    // console.log(lunarStr);
     // console.log(getLunar);
 }
 
