@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b9f5b88-5f86-409e-ae5d-587b7fac41a7" name="Default Changelist" comment="" />
+    <list default="true" id="9b9f5b88-5f86-409e-ae5d-587b7fac41a7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/0422.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filter-data.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gb/data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new-data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +20,7 @@
         <option value="JavaScript File" />
         <option value="SCSS File" />
         <option value="package.json" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -25,20 +33,24 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Github\chinese-western-years-map\gb" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Github\chinese-western-years-map" />
     </key>
@@ -68,11 +80,12 @@
       <workItem from="1586698751471" duration="6737000" />
       <workItem from="1586739734300" duration="4270000" />
       <workItem from="1586776245759" duration="5359000" />
+      <workItem from="1587473161938" duration="13870000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -82,6 +95,10 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="110" y="324" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1024.-39.1024.1280/0.0.1920.1200@0.0.1920.1200" timestamp="1586682025383" />
+    <state x="579" y="484" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587560518624">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="579" y="484" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1200/-1200.-493.1200.1920@0.0.1920.1200" timestamp="1587560518624" />
     <state x="116" y="445" key="EditFileWatcherDialog" timestamp="1586681748460">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
@@ -122,5 +139,9 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="1" y="311" key="SettingsEditor/-1024.-39.1024.1280/0.0.1920.1200@0.0.1920.1200" timestamp="1586681749181" />
+    <state x="489" y="324" key="run.anything.popup" timestamp="1587481911144">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="489" y="324" key="run.anything.popup/0.0.1920.1200/-1200.-493.1200.1920@0.0.1920.1200" timestamp="1587481911144" />
   </component>
 </project>
