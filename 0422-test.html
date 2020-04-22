@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table class="table year-table table-bordered table-hover table-sm" id="year-table">
+    <caption>
+        <em>資料來源：<a target="_blank" title="台北市政府〔清朝、日治時期、民國年號對照表〕(PDF)"
+                    href="https://www-ws.gov.taipei/Download.ashx?u=LzAwMS9VcGxvYWQvNTQxL3JlbGZpbGUvMjYwNjUvMzg1NzAyOS82NTIwMTAzOTI1NzEucGRm&n=NjUyMDEwMzkyNTcxLnBkZg%3D%3D">台北市政府〔清朝、日治時期、民國年號對照表〕(PDF)</a></em>
+    </caption>
+    <thead class="thead-dark">
+    <tr>
+        <th scope="col">西元</th>
+        <th scope="col">清朝</th>
+        <th scope="col">民國</th>
+        <th scope="col">日本年號</th>
+        <th scope="col">歲次</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>1947</td>
+        <td>民國 36</td>
+        <td>&nbsp;</td>
+        <td>昭和 22</td>
+        <td>丁亥</td>
+    </tr>
+    </tbody>
+</table>
+<script>
+    // createList();
+    function createList(){
+        let data = [
+            {
+                west: '1807',
+                qing: '嘉慶 12',
+                taiwan: '民前 105',
+                japan: '文化 04',
+                china: '丁卯',
+            },
+            {
+                west: '1807',
+                qing: '嘉慶 12',
+                taiwan: '民前 105',
+                japan: '文化 04',
+                china: '丁卯',
+            },
+        ]
+
+        let table = document.getElementById('year-table');
+    }
+    changeData();
+    function changeData(){
+        console.log('e');
+        let data = [
+            {
+                west: '1807',
+                qing: '嘉慶 12',
+                taiwan: '民前 105',
+                japan: '文化 04',
+                china: '丁卯',
+            },
+            {
+                west: '1807',
+                qing: '民國元',
+                taiwan: ' ',
+                japan: '大正元',
+                china: '丁卯',
+            },
+            {
+                west: '1807',
+                qing: '民國元',
+                taiwan: ' ',
+                japan: '大正元',
+                china: '丁卯',
+            },
+        ]
+        data.forEach(item => {
+            item.taiwan = item.qing;
+            item.qing = '';
+        })
+        console.log(data);
+        
+    }
+
+
+</script>
+</body>
+</html>
