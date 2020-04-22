@@ -31,7 +31,7 @@
 </table>
 <script>
     // createList();
-    function createList(){
+    function createList() {
         let data = [
             {
                 west: '1807',
@@ -51,8 +51,10 @@
 
         let table = document.getElementById('year-table');
     }
+
     changeData();
-    function changeData(){
+
+    function changeData() {
         console.log('e');
         let data = [
             {
@@ -63,14 +65,21 @@
                 china: '丁卯',
             },
             {
-                west: '1807',
+                west: '1921',
                 qing: '民國元',
                 taiwan: ' ',
                 japan: '大正元',
                 china: '丁卯',
             },
             {
-                west: '1807',
+                west: '1922',
+                qing: '民國元',
+                taiwan: ' ',
+                japan: '大正元',
+                china: '丁卯',
+            },
+            {
+                west: '1925',
                 qing: '民國元',
                 taiwan: ' ',
                 japan: '大正元',
@@ -78,11 +87,14 @@
             },
         ]
         data.forEach(item => {
-            item.taiwan = item.qing;
-            item.qing = '';
+            if (item.west > 1920) {
+                item.taiwan = item.qing;
+                item.qing = '';
+            }
+
         })
         console.log(data);
-        
+
     }
 
 
