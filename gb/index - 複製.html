@@ -1,0 +1,1055 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <title>中西曆年號歲次快速查詢對照表</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="year-wrap">
+    <div class="container">
+        <div class="row">
+            <button onclick="topFunction()" id="gotopBtn" title="Go to top">Top</button>
+            <h1>中西曆年號歲次快速查詢對照表</h1>
+            <div class="form-group gotoLunar">
+                <a class="btn btn-sm btn-outline-primary" id="openLunar"
+                   onclick="window.open('https://sinocal.sinica.edu.tw/','_blank')">
+                    農曆換算&nbsp;&nbsp;<i class="fa fa-external-link-square" aria-hidden="true"></i>
+                </a>
+                <em> 由中研院計算中心製作：兩千年中西曆轉換</em>
+            </div>
+            <hr>
+            <div class="form-group col-md-12 filter-group">
+                <input type="text" class="form-control" placeholder="請輸入欲搜尋的中文或數字，如西元年、民國年、年號或歲次" id="filterText"
+                       onkeyup="filterList()">
+            </div>
+            <div class="table-responsive">
+                <table class="table year-table table-bordered table-hover table-sm" id="year-table">
+                    <caption>
+                        <em>資料來源：<a target="_blank" title="台北市政府〔清朝、日治時期、民國年號對照表〕(PDF)"
+                                    href="https://www-ws.gov.taipei/Download.ashx?u=LzAwMS9VcGxvYWQvNTQxL3JlbGZpbGUvMjYwNjUvMzg1NzAyOS82NTIwMTAzOTI1NzEucGRm&n=NjUyMDEwMzkyNTcxLnBkZg%3D%3D">台北市政府〔清朝、日治時期、民國年號對照表〕(PDF)</a></em>
+                    </caption>
+                    <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">西元</th>
+                        <th scope="col">清朝</th>
+                        <th scope="col">民國</th>
+                        <th scope="col">日本年號</th>
+                        <th scope="col">歲次</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>1807</td>
+                        <td>嘉慶 12</td>
+                        <td>民前 105</td>
+                        <td>文化 04</td>
+                        <td>丁卯</td>
+                    </tr>
+                    <tr>
+                        <td>1808</td>
+                        <td>嘉慶 13</td>
+                        <td>民前 104</td>
+                        <td>文化 05</td>
+                        <td>戊辰</td>
+                    </tr>
+                    <tr>
+                        <td>1809</td>
+                        <td>嘉慶 14</td>
+                        <td>民前 103</td>
+                        <td>文化 06</td>
+                        <td>己巳</td>
+                    </tr>
+                    <tr>
+                        <td>1810</td>
+                        <td>嘉慶 15</td>
+                        <td>民前 102</td>
+                        <td>文化 07</td>
+                        <td>庚午</td>
+                    </tr>
+                    <tr>
+                        <td>1811</td>
+                        <td>嘉慶 16</td>
+                        <td>民前 101</td>
+                        <td>文化 08</td>
+                        <td>辛未</td>
+                    </tr>
+                    <tr>
+                        <td>1812</td>
+                        <td>嘉慶 17</td>
+                        <td>民前 100</td>
+                        <td>文化 09</td>
+                        <td>壬申</td>
+                    </tr>
+                    <tr>
+                        <td>1813</td>
+                        <td>嘉慶 18</td>
+                        <td>民前 99</td>
+                        <td>文化 10</td>
+                        <td>癸酉</td>
+                    </tr>
+                    <tr>
+                        <td>1814</td>
+                        <td>嘉慶 19</td>
+                        <td>民前 98</td>
+                        <td>文化 11</td>
+                        <td>甲戌</td>
+                    </tr>
+                    <tr>
+                        <td>1815</td>
+                        <td>嘉慶 20</td>
+                        <td>民前 97</td>
+                        <td>文化 12</td>
+                        <td>乙亥</td>
+                    </tr>
+                    <tr>
+                        <td>1816</td>
+                        <td>嘉慶 21</td>
+                        <td>民前 96</td>
+                        <td>文化 13</td>
+                        <td>丙子</td>
+                    </tr>
+                    <tr>
+                        <td>1817</td>
+                        <td>嘉慶 22</td>
+                        <td>民前 95</td>
+                        <td>文化 14</td>
+                        <td>丁丑</td>
+                    </tr>
+                    <tr>
+                        <td>1818</td>
+                        <td>嘉慶 23</td>
+                        <td>民前 94</td>
+                        <td class="table-success">文政元</td>
+                        <td>戊寅</td>
+                    </tr>
+                    <tr>
+                        <td>1819</td>
+                        <td>嘉慶 24</td>
+                        <td>民前 93</td>
+                        <td>文政 02</td>
+                        <td>己卯</td>
+                    </tr>
+                    <tr>
+                        <td>1820</td>
+                        <td>嘉慶 25</td>
+                        <td>民前 92</td>
+                        <td>文政 03</td>
+                        <td>庚辰</td>
+                    </tr>
+                    <tr>
+                        <td>1821</td>
+                        <td class="table-primary">道光元</td>
+                        <td>民前 91</td>
+                        <td>文政 04</td>
+                        <td>辛巳</td>
+                    </tr>
+                    <tr>
+                        <td>1822</td>
+                        <td>道光 02</td>
+                        <td>民前 90</td>
+                        <td>文政 05</td>
+                        <td>壬午</td>
+                    </tr>
+                    <tr>
+                        <td>1823</td>
+                        <td>道光 03</td>
+                        <td>民前 89</td>
+                        <td>文政 06</td>
+                        <td>癸未</td>
+                    </tr>
+                    <tr>
+                        <td>1824</td>
+                        <td>道光 04</td>
+                        <td>民前 88</td>
+                        <td>文政 07</td>
+                        <td>甲申</td>
+                    </tr>
+                    <tr>
+                        <td>1825</td>
+                        <td>道光 05</td>
+                        <td>民前 87</td>
+                        <td>文政 08</td>
+                        <td>乙酉</td>
+                    </tr>
+                    <tr>
+                        <td>1826</td>
+                        <td>道光 06</td>
+                        <td>民前 86</td>
+                        <td>文政 09</td>
+                        <td>丙戌</td>
+                    </tr>
+                    <tr>
+                        <td>1827</td>
+                        <td>道光 07</td>
+                        <td>民前 85</td>
+                        <td>文政 10</td>
+                        <td>丁亥</td>
+                    </tr>
+                    <tr>
+                        <td>1828</td>
+                        <td>道光 08</td>
+                        <td>民前 84</td>
+                        <td>文政 11</td>
+                        <td>戊子</td>
+                    </tr>
+                    <tr>
+                        <td>1829</td>
+                        <td>道光 09</td>
+                        <td>民前 83</td>
+                        <td>文政 12</td>
+                        <td>己丑</td>
+                    </tr>
+                    <tr>
+                        <td>1830</td>
+                        <td>道光 10</td>
+                        <td>民前 82</td>
+                        <td class="table-success">天保元</td>
+                        <td>庚寅</td>
+                    </tr>
+                    <tr>
+                        <td>1831</td>
+                        <td>道光 11</td>
+                        <td>民前 81</td>
+                        <td>天保 02</td>
+                        <td>辛卯</td>
+                    </tr>
+                    <tr>
+                        <td>1832</td>
+                        <td>道光 12</td>
+                        <td>民前 80</td>
+                        <td>天保 03</td>
+                        <td>壬辰</td>
+                    </tr>
+                    <tr>
+                        <td>1833</td>
+                        <td>道光 13</td>
+                        <td>民前 79</td>
+                        <td>天保 04</td>
+                        <td>癸巳</td>
+                    </tr>
+                    <tr>
+                        <td>1834</td>
+                        <td>道光 14</td>
+                        <td>民前 78</td>
+                        <td>天保 05</td>
+                        <td>甲午</td>
+                    </tr>
+                    <tr>
+                        <td>1835</td>
+                        <td>道光 15</td>
+                        <td>民前 77</td>
+                        <td>天保 06</td>
+                        <td>乙未</td>
+                    </tr>
+                    <tr>
+                        <td>1836</td>
+                        <td>道光 16</td>
+                        <td>民前 76</td>
+                        <td>天保 07</td>
+                        <td>丙申</td>
+                    </tr>
+                    <tr>
+                        <td>1837</td>
+                        <td>道光 17</td>
+                        <td>民前 75</td>
+                        <td>天保 08</td>
+                        <td>丁酉</td>
+                    </tr>
+                    <tr>
+                        <td>1838</td>
+                        <td>道光 18</td>
+                        <td>民前 74</td>
+                        <td>天保 09</td>
+                        <td>戊戌</td>
+                    </tr>
+                    <tr>
+                        <td>1839</td>
+                        <td>道光 19</td>
+                        <td>民前 73</td>
+                        <td>天保 10</td>
+                        <td>己亥</td>
+                    </tr>
+                    <tr>
+                        <td>1840</td>
+                        <td>道光 20</td>
+                        <td>民前 72</td>
+                        <td>天保 11</td>
+                        <td>庚子</td>
+                    </tr>
+                    <tr>
+                        <td>1841</td>
+                        <td>道光 21</td>
+                        <td>民前 71</td>
+                        <td>天保 12</td>
+                        <td>辛丑</td>
+                    </tr>
+                    <tr>
+                        <td>1842</td>
+                        <td>道光 22</td>
+                        <td>民前 70</td>
+                        <td>天保 13</td>
+                        <td>壬寅</td>
+                    </tr>
+                    <tr>
+                        <td>1843</td>
+                        <td>道光 23</td>
+                        <td>民前 69</td>
+                        <td>天保 14</td>
+                        <td>癸卯</td>
+                    </tr>
+                    <tr>
+                        <td>1844</td>
+                        <td>道光 24</td>
+                        <td>民前 68</td>
+                        <td class="table-success">弘化元</td>
+                        <td>甲辰</td>
+                    </tr>
+                    <tr>
+                        <td>1845</td>
+                        <td>道光 25</td>
+                        <td>民前 67</td>
+                        <td>弘化 02</td>
+                        <td>乙巳</td>
+                    </tr>
+                    <tr>
+                        <td>1846</td>
+                        <td>道光 26</td>
+                        <td>民前 66</td>
+                        <td>弘化 03</td>
+                        <td>丙午</td>
+                    </tr>
+                    <tr>
+                        <td>1847</td>
+                        <td>道光 27</td>
+                        <td>民前 65</td>
+                        <td>弘化 04</td>
+                        <td>丁未</td>
+                    </tr>
+                    <tr>
+                        <td>1848</td>
+                        <td>道光 28</td>
+                        <td>民前 64</td>
+                        <td class="table-success">嘉永元</td>
+                        <td>戊申</td>
+                    </tr>
+                    <tr>
+                        <td>1849</td>
+                        <td>道光 29</td>
+                        <td>民前 63</td>
+                        <td>嘉永 02</td>
+                        <td>己酉</td>
+                    </tr>
+                    <tr>
+                        <td>1850</td>
+                        <td>道光 30</td>
+                        <td>民前 62</td>
+                        <td>嘉永 03</td>
+                        <td>庚戌</td>
+                    </tr>
+                    <tr>
+                        <td>1851</td>
+                        <td class="table-primary">咸豐元</td>
+                        <td>民前 61</td>
+                        <td>嘉永 04</td>
+                        <td>辛亥</td>
+                    </tr>
+                    <tr>
+                        <td>1852</td>
+                        <td>咸豐 02</td>
+                        <td>民前 60</td>
+                        <td>嘉永 05</td>
+                        <td>壬子</td>
+                    </tr>
+                    <tr>
+                        <td>1853</td>
+                        <td>咸豐 03</td>
+                        <td>民前 59</td>
+                        <td>嘉永 06</td>
+                        <td>癸丑</td>
+                    </tr>
+                    <tr>
+                        <td>1854</td>
+                        <td>咸豐 04</td>
+                        <td>民前 58</td>
+                        <td class="table-success">安政元</td>
+                        <td>甲寅</td>
+                    </tr>
+                    <tr>
+                        <td>1855</td>
+                        <td>咸豐 05</td>
+                        <td>民前 57</td>
+                        <td>安政 02</td>
+                        <td>乙卯</td>
+                    </tr>
+                    <tr>
+                        <td>1856</td>
+                        <td>咸豐 06</td>
+                        <td>民前 56</td>
+                        <td>安政 03</td>
+                        <td>丙辰</td>
+                    </tr>
+                    <tr>
+                        <td>1857</td>
+                        <td>咸豐 07</td>
+                        <td>民前 55</td>
+                        <td>安政 04</td>
+                        <td>丁巳</td>
+                    </tr>
+                    <tr>
+                        <td>1858</td>
+                        <td>咸豐 08</td>
+                        <td>民前 54</td>
+                        <td>安政 05</td>
+                        <td>戊午</td>
+                    </tr>
+                    <tr>
+                        <td>1859</td>
+                        <td>咸豐 09</td>
+                        <td>民前 53</td>
+                        <td>安政 06</td>
+                        <td>己未</td>
+                    </tr>
+                    <tr>
+                        <td>1860</td>
+                        <td>咸豐 10</td>
+                        <td>民前 52</td>
+                        <td class="table-success">萬廷元</td>
+                        <td>庚申</td>
+                    </tr>
+                    <tr>
+                        <td>1861</td>
+                        <td>咸豐 11</td>
+                        <td>民前 51</td>
+                        <td class="table-success">文久元</td>
+                        <td>辛酉</td>
+                    </tr>
+                    <tr>
+                        <td>1862</td>
+                        <td class="table-primary">同治元</td>
+                        <td>民前 50</td>
+                        <td>文久 02</td>
+                        <td>壬戌</td>
+                    </tr>
+                    <tr>
+                        <td>1863</td>
+                        <td>同治 02</td>
+                        <td>民前 49</td>
+                        <td>文久 03</td>
+                        <td>癸亥</td>
+                    </tr>
+                    <tr>
+                        <td>1864</td>
+                        <td>同治 03</td>
+                        <td>民前 48</td>
+                        <td class="table-success">元治元</td>
+                        <td>甲子</td>
+                    </tr>
+                    <tr>
+                        <td>1865</td>
+                        <td>同治 04</td>
+                        <td>民前 47</td>
+                        <td class="table-success">慶應元</td>
+                        <td>乙丑</td>
+                    </tr>
+                    <tr>
+                        <td>1866</td>
+                        <td>同治 05</td>
+                        <td>民前 46</td>
+                        <td>慶應 02</td>
+                        <td>丙寅</td>
+                    </tr>
+                    <tr>
+                        <td>1867</td>
+                        <td>同治 06</td>
+                        <td>民前 45</td>
+                        <td>慶應 03</td>
+                        <td>丁卯</td>
+                    </tr>
+                    <tr>
+                        <td>1868</td>
+                        <td>同治 07</td>
+                        <td>民前 44</td>
+                        <td class="table-success">明治元</td>
+                        <td>戊辰</td>
+                    </tr>
+                    <tr>
+                        <td>1869</td>
+                        <td>同治 08</td>
+                        <td>民前 43</td>
+                        <td>明治 02</td>
+                        <td>己巳</td>
+                    </tr>
+                    <tr>
+                        <td>1870</td>
+                        <td>同治 09</td>
+                        <td>民前 42</td>
+                        <td>明治 03</td>
+                        <td>庚午</td>
+                    </tr>
+                    <tr>
+                        <td>1871</td>
+                        <td>同治 10</td>
+                        <td>民前 41</td>
+                        <td>明治 04</td>
+                        <td>辛未</td>
+                    </tr>
+                    <tr>
+                        <td>1872</td>
+                        <td>同治 11</td>
+                        <td>民前 40</td>
+                        <td>明治 05</td>
+                        <td>壬申</td>
+                    </tr>
+                    <tr>
+                        <td>1873</td>
+                        <td>同治 12</td>
+                        <td>民前 39</td>
+                        <td>明治 06</td>
+                        <td>癸酉</td>
+                    </tr>
+                    <tr>
+                        <td>1874</td>
+                        <td>同治 13</td>
+                        <td>民前 38</td>
+                        <td>明治 07</td>
+                        <td>甲戌</td>
+                    </tr>
+                    <tr>
+                        <td>1875</td>
+                        <td class="table-primary">光緒元</td>
+                        <td>民前 37</td>
+                        <td>明治 08</td>
+                        <td>乙亥</td>
+                    </tr>
+                    <tr>
+                        <td>1876</td>
+                        <td>光緒 02</td>
+                        <td>民前 36</td>
+                        <td>明治 09</td>
+                        <td>丙子</td>
+                    </tr>
+                    <tr>
+                        <td>1877</td>
+                        <td>光緒 03</td>
+                        <td>民前 35</td>
+                        <td>明治 10</td>
+                        <td>丁丑</td>
+                    </tr>
+                    <tr>
+                        <td>1878</td>
+                        <td>光緒 04</td>
+                        <td>民前 34</td>
+                        <td>明治 11</td>
+                        <td>戊寅</td>
+                    </tr>
+                    <tr>
+                        <td>1879</td>
+                        <td>光緒 05</td>
+                        <td>民前 33</td>
+                        <td>明治 12</td>
+                        <td>己卯</td>
+                    </tr>
+                    <tr>
+                        <td>1880</td>
+                        <td>光緒 06</td>
+                        <td>民前 32</td>
+                        <td>明治 13</td>
+                        <td>庚辰</td>
+                    </tr>
+                    <tr>
+                        <td>1881</td>
+                        <td>光緒 07</td>
+                        <td>民前 31</td>
+                        <td>明治 14</td>
+                        <td>辛巳</td>
+                    </tr>
+                    <tr>
+                        <td>1882</td>
+                        <td>光緒 08</td>
+                        <td>民前 30</td>
+                        <td>明治 15</td>
+                        <td>壬午</td>
+                    </tr>
+                    <tr>
+                        <td>1883</td>
+                        <td>光緒 09</td>
+                        <td>民前 29</td>
+                        <td>明治 16</td>
+                        <td>癸未</td>
+                    </tr>
+                    <tr>
+                        <td>1884</td>
+                        <td>光緒 10</td>
+                        <td>民前 28</td>
+                        <td>明治 17</td>
+                        <td>甲申</td>
+                    </tr>
+                    <tr>
+                        <td>1885</td>
+                        <td>光緒 11</td>
+                        <td>民前 27</td>
+                        <td>明治 18</td>
+                        <td>乙酉</td>
+                    </tr>
+                    <tr>
+                        <td>1886</td>
+                        <td>光緒 12</td>
+                        <td>民前 26</td>
+                        <td>明治 19</td>
+                        <td>丙戌</td>
+                    </tr>
+                    <tr>
+                        <td>1887</td>
+                        <td>光緒 13</td>
+                        <td>民前 25</td>
+                        <td>明治 20</td>
+                        <td>丁亥</td>
+                    </tr>
+                    <tr>
+                        <td>1888</td>
+                        <td>光緒 14</td>
+                        <td>民前 24</td>
+                        <td>明治 21</td>
+                        <td>戊子</td>
+                    </tr>
+                    <tr>
+                        <td>1889</td>
+                        <td>光緒 15</td>
+                        <td>民前 23</td>
+                        <td>明治 22</td>
+                        <td>己丑</td>
+                    </tr>
+                    <tr>
+                        <td>1890</td>
+                        <td>光緒 16</td>
+                        <td>民前 22</td>
+                        <td>明治 23</td>
+                        <td>庚寅</td>
+                    </tr>
+                    <tr>
+                        <td>1891</td>
+                        <td>光緒 17</td>
+                        <td>民前 21</td>
+                        <td>明治 24</td>
+                        <td>辛卯</td>
+                    </tr>
+                    <tr>
+                        <td>1892</td>
+                        <td>光緒 18</td>
+                        <td>民前 20</td>
+                        <td>明治 25</td>
+                        <td>壬辰</td>
+                    </tr>
+                    <tr>
+                        <td>1893</td>
+                        <td>光緒 19</td>
+                        <td>民前 19</td>
+                        <td>明治 26</td>
+                        <td>癸巳</td>
+                    </tr>
+                    <tr>
+                        <td>1894</td>
+                        <td>光緒 20</td>
+                        <td>民前 18</td>
+                        <td>明治 27</td>
+                        <td>甲午</td>
+                    </tr>
+                    <tr>
+                        <td>1895</td>
+                        <td>光緒 21</td>
+                        <td>民前 17</td>
+                        <td>明治 28</td>
+                        <td>乙未</td>
+                    </tr>
+                    <tr>
+                        <td>1896</td>
+                        <td>光緒 22</td>
+                        <td>民前 16</td>
+                        <td>明治 29</td>
+                        <td>丙申</td>
+                    </tr>
+                    <tr>
+                        <td>1897</td>
+                        <td>光緒 23</td>
+                        <td>民前 15</td>
+                        <td>明治 30</td>
+                        <td>丁酉</td>
+                    </tr>
+                    <tr>
+                        <td>1898</td>
+                        <td>光緒 24</td>
+                        <td>民前 14</td>
+                        <td>明治 31</td>
+                        <td>戊戌</td>
+                    </tr>
+                    <tr>
+                        <td>1899</td>
+                        <td>光緒 25</td>
+                        <td>民前 13</td>
+                        <td>明治 32</td>
+                        <td>己亥</td>
+                    </tr>
+                    <tr>
+                        <td>1900</td>
+                        <td>光緒 26</td>
+                        <td>民前 12</td>
+                        <td>明治 33</td>
+                        <td>庚子</td>
+                    </tr>
+                    <tr>
+                        <td>1901</td>
+                        <td>光緒 27</td>
+                        <td>民前 11</td>
+                        <td>明治 34</td>
+                        <td>辛丑</td>
+                    </tr>
+                    <tr>
+                        <td>1902</td>
+                        <td>光緒 28</td>
+                        <td>民前 10</td>
+                        <td>明治 35</td>
+                        <td>壬寅</td>
+                    </tr>
+                    <tr>
+                        <td>1903</td>
+                        <td>光緒 29</td>
+                        <td>民前 09</td>
+                        <td>明治 36</td>
+                        <td>癸卯</td>
+                    </tr>
+                    <tr>
+                        <td>1904</td>
+                        <td>光緒 30</td>
+                        <td>民前 08</td>
+                        <td>明治 37</td>
+                        <td>甲辰</td>
+                    </tr>
+                    <tr>
+                        <td>1905</td>
+                        <td>光緒 31</td>
+                        <td>民前 07</td>
+                        <td>明治 38</td>
+                        <td>乙巳</td>
+                    </tr>
+                    <tr>
+                        <td>1906</td>
+                        <td>光緒 32</td>
+                        <td>民前 06</td>
+                        <td>明治 39</td>
+                        <td>丙午</td>
+                    </tr>
+                    <tr>
+                        <td>1907</td>
+                        <td>光緒 33</td>
+                        <td>民前 05</td>
+                        <td>明治 40</td>
+                        <td>丁未</td>
+                    </tr>
+                    <tr>
+                        <td>1908</td>
+                        <td>光緒 34</td>
+                        <td>民前 04</td>
+                        <td>明治 41</td>
+                        <td>戊申</td>
+                    </tr>
+                    <tr>
+                        <td>1909</td>
+                        <td class="table-primary">宣統元</td>
+                        <td>民前 03</td>
+                        <td>明治 42</td>
+                        <td>己酉</td>
+                    </tr>
+                    <tr>
+                        <td>1910</td>
+                        <td>宣統 02</td>
+                        <td>民前 02</td>
+                        <td>明治 43</td>
+                        <td>庚戌</td>
+                    </tr>
+                    <tr>
+                        <td>1911</td>
+                        <td>宣統 03</td>
+                        <td>民前 01</td>
+                        <td>明治 44</td>
+                        <td>辛亥</td>
+                    </tr>
+                    <tr>
+                        <td>1912</td>
+                        <td class="table-warning">民國元</td>
+                        <td>&nbsp;</td>
+                        <td class="table-warning">大正元</td>
+                        <td>壬子</td>
+                    </tr>
+                    <tr>
+                        <td>1913</td>
+                        <td>民國 02</td>
+                        <td>&nbsp;</td>
+                        <td>大正 02</td>
+                        <td>癸丑</td>
+                    </tr>
+                    <tr>
+                        <td>1914</td>
+                        <td>民國 03</td>
+                        <td>&nbsp;</td>
+                        <td>大正 03</td>
+                        <td>甲寅</td>
+
+                    </tr>
+                    <tr>
+                        <td>1915</td>
+                        <td>民國 04</td>
+                        <td>&nbsp;</td>
+                        <td>大正 04</td>
+                        <td>乙卯</td>
+                    </tr>
+                    <tr>
+                        <td>1916</td>
+                        <td>民國 05</td>
+                        <td>&nbsp;</td>
+                        <td>大正 05</td>
+                        <td>丙辰</td>
+                    </tr>
+                    <tr>
+                        <td>1917</td>
+                        <td>民國 06</td>
+                        <td>&nbsp;</td>
+                        <td>大正 06</td>
+                        <td>丁巳</td>
+                    </tr>
+                    <tr>
+                        <td>1918</td>
+                        <td>民國 07</td>
+                        <td>&nbsp;</td>
+                        <td>大正 07</td>
+                        <td>戊午</td>
+                    </tr>
+                    <tr>
+                        <td>1919</td>
+                        <td>民國 08</td>
+                        <td>&nbsp;</td>
+                        <td>大正 08</td>
+                        <td>己未</td>
+                    </tr>
+                    <tr>
+                        <td>1920</td>
+                        <td>民國 09</td>
+                        <td>&nbsp;</td>
+                        <td>大正 09</td>
+                        <td>庚申</td>
+                    </tr>
+                    <tr>
+                        <td>1921</td>
+                        <td>民國 10</td>
+                        <td>&nbsp;</td>
+                        <td>大正 10</td>
+                        <td>辛酉</td>
+                    </tr>
+                    <tr>
+                        <td>1922</td>
+                        <td>民國 11</td>
+                        <td>&nbsp;</td>
+                        <td>大正 11</td>
+                        <td>壬戌</td>
+                    </tr>
+                    <tr>
+                        <td>1923</td>
+                        <td>民國 12</td>
+                        <td>&nbsp;</td>
+                        <td>大正 12</td>
+                        <td>癸亥</td>
+                    </tr>
+                    <tr>
+                        <td>1924</td>
+                        <td>民國 13</td>
+                        <td>&nbsp;</td>
+                        <td>大正 13</td>
+                        <td>甲子</td>
+                    </tr>
+                    <tr>
+                        <td>1925</td>
+                        <td>民國 14</td>
+                        <td>&nbsp;</td>
+                        <td>大正 14</td>
+                        <td>乙丑</td>
+                    </tr>
+                    <tr>
+                        <td>1926</td>
+                        <td>民國 15</td>
+                        <td>&nbsp;</td>
+                        <td class="table-success">昭和元</td>
+                        <td>丙寅</td>
+                    </tr>
+                    <tr>
+                        <td>1927</td>
+                        <td>民國 16</td>
+                        <td>&nbsp;</td>
+                        <td>昭和 02</td>
+                        <td>丁卯</td>
+                    </tr>
+                    <tr>
+                        <td>1928</td>
+                        <td>民國 17</td>
+                        <td>&nbsp;</td>
+                        <td>昭和 03</td>
+                        <td>戊辰</td>
+                    </tr>
+                    <tr>
+                        <td>1929</td>
+                        <td>民國 18</td>
+                        <td>&nbsp;</td>
+                        <td>昭和 04</td>
+                        <td>己巳</td>
+                    </tr>
+                    <tr>
+                        <td>1930</td>
+                        <td>民國 19</td>
+                        <td>&nbsp;</td>
+                        <td>昭和 05</td>
+                        <td>庚午</td>
+                    </tr>
+                    <tr>
+                        <td>1931</td>
+                        <td>民國 20</td>
+                        <td>&nbsp;</td>
+                        <td>昭和 06</td>
+                        <td>辛未</td>
+                    </tr>
+                    <tr>
+                        <td>1932</td>
+                        <td>民國 21</td>
+                        <td>&nbsp;</td>
+                        <td>昭和 07</td>
+                        <td>壬申</td>
+                    </tr>
+                    <tr>
+                        <td>1933</td>
+                        <td>民國 22</td>
+                        <td>&nbsp;</td>
+                        <td>昭和 08</td>
+                        <td>癸酉</td>
+                    </tr>
+                    <tr>
+                        <td>1934</td>
+                        <td>民國 23</td>
+                        <td>&nbsp;</td>
+                        <td>昭和 09</td>
+                        <td>甲戌</td>
+                    </tr>
+                    <tr>
+                        <td>1935</td>
+                        <td>民國 24</td>
+                        <td>&nbsp;</td>
+                        <td>昭和 10</td>
+                        <td>乙亥</td>
+                    </tr>
+                    <tr>
+                        <td>1936</td>
+                        <td>民國 25</td>
+                        <td>&nbsp;</td>
+                        <td>昭和 11</td>
+                        <td>丙子</td>
+                    </tr>
+                    <tr>
+                        <td>1937</td>
+                        <td>民國 26</td>
+                        <td>&nbsp;</td>
+                        <td>昭和 12</td>
+                        <td>丁丑</td>
+                    </tr>
+                    <tr>
+                        <td>1938</td>
+                        <td>民國 27</td>
+                        <td>&nbsp;</td>
+                        <td>昭和 13</td>
+                        <td>戊寅</td>
+                    </tr>
+                    <tr>
+                        <td>1939</td>
+                        <td>民國 28</td>
+                        <td>&nbsp;</td>
+                        <td>昭和 14</td>
+                        <td>己卯</td>
+                    </tr>
+                    <tr>
+                        <td>1940</td>
+                        <td>民國 29</td>
+                        <td>&nbsp;</td>
+                        <td>昭和 15</td>
+                        <td>庚辰</td>
+                    </tr>
+                    <tr>
+                        <td>1941</td>
+                        <td>民國 30</td>
+                        <td>&nbsp;</td>
+                        <td>昭和 16</td>
+                        <td>辛巳</td>
+                    </tr>
+                    <tr>
+                        <td>1942</td>
+                        <td>民國 31</td>
+                        <td>&nbsp;</td>
+                        <td>昭和 17</td>
+                        <td>壬午</td>
+                    </tr>
+                    <tr>
+                        <td>1943</td>
+                        <td>民國 32</td>
+                        <td>&nbsp;</td>
+                        <td>昭和 18</td>
+                        <td>癸未</td>
+                    </tr>
+                    <tr>
+                        <td>1944</td>
+                        <td>民國 33</td>
+                        <td>&nbsp;</td>
+                        <td>昭和 19</td>
+                        <td>甲申</td>
+                    </tr>
+                    <tr>
+                        <td>1945</td>
+                        <td>民國 34</td>
+                        <td>&nbsp;</td>
+                        <td>昭和 20</td>
+                        <td>乙酉</td>
+                    </tr>
+                    <tr>
+                        <td>1946</td>
+                        <td>民國 35</td>
+                        <td>&nbsp;</td>
+                        <td>昭和 21</td>
+                        <td>丙戌</td>
+                    </tr>
+                    <tr>
+                        <td>1947</td>
+                        <td>民國 36</td>
+                        <td>&nbsp;</td>
+                        <td>昭和 22</td>
+                        <td>丁亥</td>
+                    </tr>
+                    </tbody>
+                    <tfoot>
+                    <tr id="prompt">
+                        <td colspan="5" class="text-center">
+                            查不到資料
+                        </td>
+                    </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="container-fluid">
+        <div class="row">
+            <p class="copyright">Made by <a href="https://github.com/john8895" target="_blank" title="John's Github">陳政翰〔阿翰
+                John8895〕</a>.</p>
+        </div>
+    </div>
+</footer>
+<script src="../chinese-western-years-map.js"></script>
+</body>
+</html>
