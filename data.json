@@ -985,5 +985,453 @@
     "taiwan": "民國 36",
     "japan": "昭和 22",
     "china": "丁亥"
+  },
+  {
+    "west": "1948",
+    "qing": "",
+    "taiwan": "民國 37",
+    "japan": "昭和 23",
+    "china": "戊子"
+  },
+  {
+    "west": "1949",
+    "qing": "",
+    "taiwan": "民國 38",
+    "japan": "昭和 24",
+    "china": "己丑"
+  },
+  {
+    "west": "1950",
+    "qing": "",
+    "taiwan": "民國 39",
+    "japan": "昭和 25",
+    "china": "庚寅"
+  },
+  {
+    "west": "1951",
+    "qing": "",
+    "taiwan": "民國 40",
+    "japan": "昭和 26",
+    "china": "辛卯"
+  },
+  {
+    "west": "1952",
+    "qing": "",
+    "taiwan": "民國 41",
+    "japan": "昭和 27",
+    "china": "壬辰"
+  },
+  {
+    "west": "1953",
+    "qing": "",
+    "taiwan": "民國 42",
+    "japan": "昭和 28",
+    "china": "癸巳"
+  },
+  {
+    "west": "1954",
+    "qing": "",
+    "taiwan": "民國 43",
+    "japan": "昭和 29",
+    "china": "甲午"
+  },
+  {
+    "west": "1955",
+    "qing": "",
+    "taiwan": "民國 44",
+    "japan": "昭和 30",
+    "china": "乙未"
+  },
+  {
+    "west": "1956",
+    "qing": "",
+    "taiwan": "民國 45",
+    "japan": "昭和 31",
+    "china": "丙申"
+  },
+  {
+    "west": "1957",
+    "qing": "",
+    "taiwan": "民國 46",
+    "japan": "昭和 32",
+    "china": "丁酉"
+  },
+  {
+    "west": "1958",
+    "qing": "",
+    "taiwan": "民國 47",
+    "japan": "昭和 33",
+    "china": "戊戌"
+  },
+  {
+    "west": "1959",
+    "qing": "",
+    "taiwan": "民國 48",
+    "japan": "昭和 34",
+    "china": "己亥"
+  },
+  {
+    "west": "1960",
+    "qing": "",
+    "taiwan": "民國 49",
+    "japan": "昭和 35",
+    "china": "庚子"
+  },
+  {
+    "west": "1961",
+    "qing": "",
+    "taiwan": "民國 50",
+    "japan": "昭和 36",
+    "china": "辛丑"
+  },
+  {
+    "west": "1962",
+    "qing": "",
+    "taiwan": "民國 51",
+    "japan": "昭和 37",
+    "china": "壬寅"
+  },
+  {
+    "west": "1963",
+    "qing": "",
+    "taiwan": "民國 52",
+    "japan": "昭和 38",
+    "china": "癸卯"
+  },
+  {
+    "west": "1964",
+    "qing": "",
+    "taiwan": "民國 53",
+    "japan": "昭和 39",
+    "china": "甲辰"
+  },
+  {
+    "west": "1965",
+    "qing": "",
+    "taiwan": "民國 54",
+    "japan": "昭和 40",
+    "china": "乙巳"
+  },
+  {
+    "west": "1966",
+    "qing": "",
+    "taiwan": "民國 55",
+    "japan": "昭和 41",
+    "china": "丙午"
+  },
+  {
+    "west": "1967",
+    "qing": "",
+    "taiwan": "民國 56",
+    "japan": "昭和 42",
+    "china": "丁未"
+  },
+  {
+    "west": "1968",
+    "qing": "",
+    "taiwan": "民國 57",
+    "japan": "昭和 43",
+    "china": "戊申"
+  },
+  {
+    "west": "1969",
+    "qing": "",
+    "taiwan": "民國 58",
+    "japan": "昭和 44",
+    "china": "己酉"
+  },
+  {
+    "west": "1970",
+    "qing": "",
+    "taiwan": "民國 59",
+    "japan": "昭和 45",
+    "china": "庚戌"
+  },
+  {
+    "west": "1971",
+    "qing": "",
+    "taiwan": "民國 60",
+    "japan": "昭和 46",
+    "china": "辛亥"
+  },
+  {
+    "west": "1972",
+    "qing": "",
+    "taiwan": "民國 61",
+    "japan": "昭和 47",
+    "china": "壬子"
+  },
+  {
+    "west": "1973",
+    "qing": "",
+    "taiwan": "民國 62",
+    "japan": "昭和 48",
+    "china": "癸丑"
+  },
+  {
+    "west": "1974",
+    "qing": "",
+    "taiwan": "民國 63",
+    "japan": "昭和 49",
+    "china": "甲寅"
+  },
+  {
+    "west": "1975",
+    "qing": "",
+    "taiwan": "民國 64",
+    "japan": "昭和 50",
+    "china": "乙卯"
+  },
+  {
+    "west": "1976",
+    "qing": "",
+    "taiwan": "民國 65",
+    "japan": "昭和 51",
+    "china": "丙辰"
+  },
+  {
+    "west": "1977",
+    "qing": "",
+    "taiwan": "民國 66",
+    "japan": "昭和 52",
+    "china": "丁巳"
+  },
+  {
+    "west": "1978",
+    "qing": "",
+    "taiwan": "民國 67",
+    "japan": "昭和 53",
+    "china": "戊午"
+  },
+  {
+    "west": "1979",
+    "qing": "",
+    "taiwan": "民國 68",
+    "japan": "昭和 54",
+    "china": "己未"
+  },
+  {
+    "west": "1980",
+    "qing": "",
+    "taiwan": "民國 69",
+    "japan": "昭和 55",
+    "china": "庚申"
+  },
+  {
+    "west": "1981",
+    "qing": "",
+    "taiwan": "民國 70",
+    "japan": "昭和 56",
+    "china": "辛酉"
+  },
+  {
+    "west": "1982",
+    "qing": "",
+    "taiwan": "民國 71",
+    "japan": "昭和 57",
+    "china": "壬戌"
+  },
+  {
+    "west": "1983",
+    "qing": "",
+    "taiwan": "民國 72",
+    "japan": "昭和 58",
+    "china": "癸亥"
+  },
+  {
+    "west": "1984",
+    "qing": "",
+    "taiwan": "民國 73",
+    "japan": "昭和 59",
+    "china": "甲子"
+  },
+  {
+    "west": "1985",
+    "qing": "",
+    "taiwan": "民國 74",
+    "japan": "昭和 60",
+    "china": "乙丑"
+  },
+  {
+    "west": "1986",
+    "qing": "",
+    "taiwan": "民國 75",
+    "japan": "昭和 61",
+    "china": "丙寅"
+  },
+  {
+    "west": "1987",
+    "qing": "",
+    "taiwan": "民國 76",
+    "japan": "昭和 62",
+    "china": "丁卯"
+  },
+  {
+    "west": "1988",
+    "qing": "",
+    "taiwan": "民國 77",
+    "japan": "昭和 63",
+    "china": "戊辰"
+  },
+  {
+    "west": "1989",
+    "qing": "",
+    "taiwan": "民國 78",
+    "japan": "平成 1",
+    "china": "己巳"
+  },
+  {
+    "west": "1990",
+    "qing": "",
+    "taiwan": "民國 79",
+    "japan": "平成 2",
+    "china": "庚午"
+  },
+  {
+    "west": "1991",
+    "qing": "",
+    "taiwan": "民國 80",
+    "japan": "平成 3",
+    "china": "辛未"
+  },
+  {
+    "west": "1992",
+    "qing": "",
+    "taiwan": "民國 81",
+    "japan": "平成 4",
+    "china": "壬申"
+  },
+  {
+    "west": "1993",
+    "qing": "",
+    "taiwan": "民國 82",
+    "japan": "平成 5",
+    "china": "癸酉"
+  },
+  {
+    "west": "1994",
+    "qing": "",
+    "taiwan": "民國 83",
+    "japan": "平成 6",
+    "china": "甲戌"
+  },
+  {
+    "west": "1995",
+    "qing": "",
+    "taiwan": "民國 84",
+    "japan": "平成 7",
+    "china": "乙亥"
+  },
+  {
+    "west": "1996",
+    "qing": "",
+    "taiwan": "民國 85",
+    "japan": "平成 8",
+    "china": "丙子"
+  },
+  {
+    "west": "1997",
+    "qing": "",
+    "taiwan": "民國 86",
+    "japan": "平成 9",
+    "china": "丁丑"
+  },
+  {
+    "west": "1998",
+    "qing": "",
+    "taiwan": "民國 87",
+    "japan": "平成 10",
+    "china": "戊寅"
+  },
+  {
+    "west": "1999",
+    "qing": "",
+    "taiwan": "民國 88",
+    "japan": "平成 11",
+    "china": "己卯"
+  },
+  {
+    "west": "2000",
+    "qing": "",
+    "taiwan": "民國 89",
+    "japan": "平成 12",
+    "china": "庚辰"
+  },
+  {
+    "west": "2001",
+    "qing": "",
+    "taiwan": "民國 90",
+    "japan": "平成 13",
+    "china": "辛巳"
+  },
+  {
+    "west": "2002",
+    "qing": "",
+    "taiwan": "民國 91",
+    "japan": "平成 14",
+    "china": "壬午"
+  },
+  {
+    "west": "2003",
+    "qing": "",
+    "taiwan": "民國 92",
+    "japan": "平成 15",
+    "china": "癸未"
+  },
+  {
+    "west": "2004",
+    "qing": "",
+    "taiwan": "民國 93",
+    "japan": "平成 16",
+    "china": "甲申"
+  },
+  {
+    "west": "2005",
+    "qing": "",
+    "taiwan": "民國 94",
+    "japan": "平成 17",
+    "china": "乙酉"
+  },
+  {
+    "west": "2006",
+    "qing": "",
+    "taiwan": "民國 95",
+    "japan": "平成 18",
+    "china": "丙戌"
+  },
+  {
+    "west": "2007",
+    "qing": "",
+    "taiwan": "民國 96",
+    "japan": "平成 19",
+    "china": "丁亥"
+  },
+  {
+    "west": "2008",
+    "qing": "",
+    "taiwan": "民國 97",
+    "japan": "平成 20",
+    "china": "戊子"
+  },
+  {
+    "west": "2009",
+    "qing": "",
+    "taiwan": "民國 98",
+    "japan": "平成 21",
+    "china": "己丑"
+  },
+  {
+    "west": "2010",
+    "qing": "",
+    "taiwan": "民國 99",
+    "japan": "平成 22",
+    "china": "庚寅"
+  },
+  {
+    "west": "2011",
+    "qing": "",
+    "taiwan": "民國 100",
+    "japan": "平成 23",
+    "china": "辛卯"
   }
 ]
