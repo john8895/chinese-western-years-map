@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b9f5b88-5f86-409e-ae5d-587b7fac41a7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/0422.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/filter-data.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gb/data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new-data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.html" afterDir="false" />
-    </list>
+    <list default="true" id="9b9f5b88-5f86-409e-ae5d-587b7fac41a7" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,14 +38,14 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Github\chinese-western-years-map\gb" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Github\chinese-western-years-map" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Github\chinese-western-years-map\gb" />
     </key>
   </component>
   <component name="RunManager">
@@ -135,10 +128,11 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state width="1225" height="335" key="GridCell.Tab.1.right/-1024.-39.1024.1280/0.0.1920.1200@0.0.1920.1200" timestamp="1586688541500" />
-    <state x="1" y="311" key="SettingsEditor" timestamp="1586681749181">
+    <state x="1" y="311" key="SettingsEditor" timestamp="1588304186016">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="1" y="311" key="SettingsEditor/-1024.-39.1024.1280/0.0.1920.1200@0.0.1920.1200" timestamp="1586681749181" />
+    <state x="1" y="311" key="SettingsEditor/0.0.1920.1200/-1200.-493.1200.1920@0.0.1920.1200" timestamp="1588304186016" />
     <state x="489" y="324" key="run.anything.popup" timestamp="1587481911144">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
