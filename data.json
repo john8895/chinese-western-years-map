@@ -1433,5 +1433,61 @@
     "taiwan": "民國 100",
     "japan": "平成 23",
     "china": "辛卯"
+  },
+  {
+    "west": "2012",
+    "qing": "",
+    "taiwan": "民國 101",
+    "japan": "平成 24",
+    "china": "壬辰"
+  },
+  {
+    "west": "2013",
+    "qing": "",
+    "taiwan": "民國 102",
+    "japan": "平成 25",
+    "china": "癸巳"
+  },
+  {
+    "west": "2014",
+    "qing": "",
+    "taiwan": "民國 103",
+    "japan": "平成 26",
+    "china": "甲午"
+  },
+  {
+    "west": "2015",
+    "qing": "",
+    "taiwan": "民國 104",
+    "japan": "平成 27",
+    "china": "乙未"
+  },
+  {
+    "west": "2016",
+    "qing": "",
+    "taiwan": "民國 105",
+    "japan": "平成 28",
+    "china": "丙申"
+  },
+  {
+    "west": "2017",
+    "qing": "",
+    "taiwan": "民國 106",
+    "japan": "",
+    "china": "丁酉"
+  },
+  {
+    "west": "2018",
+    "qing": "",
+    "taiwan": "民國 107",
+    "japan": "",
+    "china": "戊戌"
+  },
+  {
+    "west": "2019",
+    "qing": "",
+    "taiwan": "民國 108",
+    "japan": "",
+    "china": "己亥"
   }
 ]
