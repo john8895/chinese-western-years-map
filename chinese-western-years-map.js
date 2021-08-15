@@ -1,4 +1,3 @@
-
 // ######################
 // Window Onload Focus Input
 // ######################
@@ -9,11 +8,13 @@ function focusFun() {
     input.focus();
 }
 
+
 // Custom Function : Multiple SetAttribute
 // ----------------------------
 function setAttributes(element, attrs) {
     Object.keys(attrs).forEach(key => element.setAttribute(key, attrs[key]));
 }
+
 
 // ######################
 // Create table data
@@ -23,7 +24,7 @@ function getData(jData) {
     let table = document.getElementById('year-table');
     let tbody = table.querySelector('tbody');
 
-    data.forEach(item => {
+    data.forEach((item, id) => {
         let trObj = document.createElement('tr');
         let row = `<td>${item.west}</td>
                         <td>${item.qing}</td>
@@ -31,8 +32,8 @@ function getData(jData) {
                         <td>${item.japan}</td>
                         <td>${item.china}</td>`
         trObj.innerHTML = row;
-        tbody.appendChild(trObj)
-        // console.log(item);
+        trObj.classList.add('table-row',`row-${id}`);
+        tbody.appendChild(trObj);
     })
 }
 
@@ -58,6 +59,9 @@ function filterList() {
     const input = document.getElementById('filterText').value;
     const table = document.getElementById('year-table');
     const trObj = table.getElementsByTagName('tbody')[0].getElementsByTagName('tr');
+    const rows = document.querySelectorAll('.table-row');
+    
+    rows.forEach(row => row.style.background = '');  // Remove All Rows Background Color
 
     //依 tr => td 依序搜尋比對，只要每一列比對到有相同的資料，就顯示該列
     for (let i = 0; i < trObj.length; i++) {
@@ -92,3 +96,20 @@ function topFunction() {
 }
 
 
+// ######################
+// Click to HighLight Row
+// ######################
+function clickRowHighlight(){
+    const rows = document.querySelectorAll('.table-row');
+    rows.forEach((row, key) => {
+        row.addEventListener('click', ()=>{
+            const target = row.getAttribute('style');
+            if(target === null || target === '' || target == 'display: table-row;'){
+                row.style.backgroundColor = '#fffa4c';
+            }else if(target.indexOf('background') > -1){
+                row.style.background = '';
+            }
+         })
+    })
+}
+onload = function() { clickRowHighlight(); }

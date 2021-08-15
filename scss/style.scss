@@ -47,19 +47,22 @@
         opacity: 0.85;
 
         &:hover {
-            background-color: darken(#00BCD4,5%);
+            background-color: darken(#00BCD4, 5%);
             transition: .3s ease-in-out .1s;
             opacity: 1;
         }
     }
+
     #prompt {
         display: none;
     }
+
     #openLunar {
         &:hover {
             color: #fff;
         }
     }
+
     .gotoLunar {
         em {
             font-size: 12px;
@@ -68,6 +71,7 @@
         }
     }
 }
+
 footer {
     .copyright {
         display: inline-block;
@@ -82,7 +86,8 @@ footer {
         //position: fixed;
         //bottom: 0;
         a {
-            color: lighten(#a7a7a7,10%);
+            color: lighten(#a7a7a7, 10%);
+
             &:hover {
                 color: #fff;
             }
@@ -113,5 +118,9 @@ footer {
                 font-style: normal;
             }
         }
+    }
+
+    .table-row {
+        cursor: pointer;
     }
 }

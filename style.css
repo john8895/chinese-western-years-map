@@ -91,5 +91,8 @@ footer .copyright a:hover {
   font-size: 12px;
   font-style: normal;
 }
+.year-wrap .table-row {
+  cursor: pointer;
+}
 
 /*# sourceMappingURL=style.css.map */
