@@ -23,7 +23,7 @@
             <hr>
             <div class="form-group col-md-12 filter-group">
                 <input type="text" class="form-control" placeholder="請輸入欲搜尋的中文或數字，如西元年、民國年、年號或歲次" id="filterText"
-                       onkeyup="filterList()">
+                       onkeyup="filterList()" onclick="this.setSelectionRange(0, this.value.length)">
             </div>
             <div class="table-responsive">
                 <table class="table year-table table-bordered table-hover table-sm" id="year-table">
