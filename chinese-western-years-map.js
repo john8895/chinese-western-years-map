@@ -112,4 +112,5 @@ function clickRowHighlight(){
          })
     })
 }
-onload = function() { clickRowHighlight(); }
+// onload = function() { clickRowHighlight(); }
+clickRowHighlight();
