@@ -99,7 +99,7 @@ function topFunction() {
 // ######################
 // Click to HighLight Row
 // ######################
-(function clickRowHighlight(){
+function clickRowHighlight(){
     const rows = document.querySelectorAll('.table-row');
     rows.forEach((row, key) => {
         row.addEventListener('click', ()=>{
@@ -111,5 +111,5 @@ function topFunction() {
             }
          })
     })
-})();
-// onload = function() { clickRowHighlight(); }
+}
+onload = function() { clickRowHighlight(); }
