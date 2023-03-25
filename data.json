@@ -1,5 +1,82 @@
 [
   {
+    "west": "1796",
+    "qing": "嘉慶元",
+    "taiwan": "",
+    "japan": "", 
+    "china": "丙辰"
+  },
+  {
+    "west": "1797",
+    "qing": "嘉慶 02",
+    "taiwan": "",
+    "japan": "",
+    "china": "丁巳"
+  },
+  {
+    "west": "1798",
+    "qing": "嘉慶 03",
+    "taiwan": "",
+    "japan": "",
+    "china": "戊午"
+  },
+  {
+    "west": "1799",
+    "qing": "嘉慶 04",
+    "taiwan": "",
+    "japan": "",
+    "china": "己未"
+  },
+  {
+    "west": "1800",
+    "qing": "嘉慶 05",
+    "taiwan": "",
+    "japan": "",
+    "china": "庚申"
+  },
+  {
+    "west": "1801",
+    "qing": "嘉慶 06",
+    "taiwan": "",
+    "japan": "",
+    "china": "辛酉"
+  },
+  {
+    "west": "1802",
+    "qing": "嘉慶 07",
+    "taiwan": "",
+    "japan": "",
+    "china": "壬戌"
+  },
+  {
+    "west": "1803",
+    "qing": "嘉慶 08",
+    "taiwan": "",
+    "japan": "",
+    "china": "癸亥"
+  },
+  {
+    "west": "1804",
+    "qing": "嘉慶 09",
+    "taiwan": "",
+    "japan": "文化元",
+    "china": "甲子"
+  },
+   {
+    "west": "1805",
+    "qing": "嘉慶 10",
+    "taiwan": "",
+    "japan": "文化 02",
+    "china": "乙丑"
+  },
+   {
+    "west": "1806",
+    "qing": "嘉慶 11",
+    "taiwan": "",
+    "japan": "文化 03",
+    "china": "丙寅"
+  },
+  {
     "west": "1807",
     "qing": "嘉慶 12",
     "taiwan": "民前 105",
