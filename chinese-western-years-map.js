@@ -1,7 +1,11 @@
 // ######################
 // Window Onload Focus Input
 // ######################
-window.addEventListener('load', focusFun);
+// window.addEventListener('load', focusFun);
+window.addEventListener('load', () => {
+    focusFun();
+    clickRowHighlight();
+});
 
 function focusFun() {
     const input = document.getElementById('filterText');
@@ -112,4 +116,4 @@ function clickRowHighlight(){
          })
     })
 }
-onload = function() { clickRowHighlight(); }
+// onload = function() { clickRowHighlight(); }
