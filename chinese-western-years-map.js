@@ -110,6 +110,8 @@ function clickRowHighlight(){
             const target = row.getAttribute('style');
             if(target === null || target === '' || target == 'display: table-row;'){
                 row.style.backgroundColor = '#fffa4c';
+                
+                showRowContent(row);  // 取出TD包含的內容
             }else if(target.indexOf('background') > -1){
                 row.style.background = '';
             }
@@ -117,3 +119,30 @@ function clickRowHighlight(){
     })
 }
 // onload = function() { clickRowHighlight(); }
+
+
+function copyToClipboard(text) {
+    navigator.clipboard.writeText(text)  // 使用 Clipboard API 写入文本到剪贴板
+        .then(() => {
+            console.log('Text copied to clipboard');
+            Swal.fire({
+                title: '已複製到剪貼簿!',
+                icon: 'success',
+                timer: 1000,
+            })
+        })
+        .catch(err => {
+            console.error('Failed to copy text: ', err);
+        });
+}
+
+function showRowContent(row) {
+    const tds = row.querySelectorAll('td');  // 获取当前行中的所有 <td> 元素
+    const rowData = Array.from(tds).map(td => td.textContent.trim());  // 将每个 <td> 元素的文本内容去除空白，并放入数组中
+    // console.log(rowData);
+    const filterRowData = rowData.filter(element => element !== "");
+    const joinedData = filterRowData.join(' ');  // 将数组元素以逗号分隔连接成一行数据
+    console.log(joinedData);  // 输出拼接后的一行数据
+
+    copyToClipboard(joinedData);  // 复制 joinedData 到剪贴板
+}
