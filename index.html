@@ -25,13 +25,13 @@
 
 <div class="row">
     <div class="col">
-        <input type="number" id="year" class="form-control" min="1900" max="2100" required placeholder="西元年">
+        <input type="text" id="year" class="form-control" min="1900" max="2100" required placeholder="西元年" onclick="this.setSelectionRange(0, this.value.length)">
     </div>
     <div class="col">
-        <input type="number" id="month" class="form-control" min="1" max="12" required placeholder="月">
+        <input type="text" id="month" class="form-control" min="1" max="12" required placeholder="月" onclick="this.setSelectionRange(0, this.value.length)">
     </div>
     <div class="col">
-        <input type="number" id="day" class="form-control" min="1" max="31" required placeholder="日">
+        <input type="text" id="day" class="form-control" min="1" max="31" required placeholder="日" onclick="this.setSelectionRange(0, this.value.length)">
     </div>
 </div>
 <center>
