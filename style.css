@@ -96,3 +96,18 @@ footer .copyright a:hover {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+.lunar-display {
+  text-align: center;
+background-color: oldlace;
+  padding: 12px 5px 2px;
+  border: 3px dotted #ecbb5d;
+  margin-top: 10px;
+}
+#lunar_year_result {
+  cursor: pointer;
+}
+#lunar_year_result:hover {
+  background-color:#fc3d83;
+
+}
