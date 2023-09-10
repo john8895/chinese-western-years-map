@@ -1,9 +1,10 @@
+var jsonData;
 // ######################
 // Window Onload Focus Input
 // ######################
 // window.addEventListener('load', focusFun);
 window.addEventListener('load', () => {
-    focusFun();
+    // focusFun();
     clickRowHighlight();
 });
 
@@ -36,7 +37,7 @@ function getData(jData) {
                         <td>${item.japan}</td>
                         <td>${item.china}</td>`
         trObj.innerHTML = row;
-        trObj.classList.add('table-row',`row-${id}`);
+        trObj.classList.add('table-row', `row-${id}`);
         tbody.appendChild(trObj);
     })
 }
@@ -52,6 +53,7 @@ function getData(jData) {
     xhr.onreadystatechange = function () {
         if (this.readyState !== 4) return;
         getData(this.responseText);
+        jsonData = this.responseText;
     }
 })()
 
@@ -64,7 +66,7 @@ function filterList() {
     const table = document.getElementById('year-table');
     const trObj = table.getElementsByTagName('tbody')[0].getElementsByTagName('tr');
     const rows = document.querySelectorAll('.table-row');
-    
+
     rows.forEach(row => row.style.background = '');  // Remove All Rows Background Color
 
     //依 tr => td 依序搜尋比對，只要每一列比對到有相同的資料，就顯示該列
@@ -103,24 +105,21 @@ function topFunction() {
 // ######################
 // Click to HighLight Row
 // ######################
-function clickRowHighlight(){
-    console.log("clickRowHighlight")
+function clickRowHighlight() {
     const rows = document.querySelectorAll('.table-row');
     rows.forEach((row, key) => {
-        row.addEventListener('click', ()=>{
+        row.addEventListener('click', () => {
             const target = row.getAttribute('style');
-            if(target === null || target === '' || target == 'display: table-row;'){
+            if (target === null || target === '' || target == 'display: table-row;') {
                 row.style.backgroundColor = '#fffa4c';
-                
                 showRowContent(row);  // 取出TD包含的內容
-            }else if(target.indexOf('background') > -1){
+            } else if (target.indexOf('background') > -1) {
                 row.style.background = '';
             }
-         })
+        })
     })
 }
 // onload = function() { clickRowHighlight(); }
-
 
 function copyToClipboard(text) {
     navigator.clipboard.writeText(text)  // 使用 Clipboard API 写入文本到剪贴板
@@ -147,3 +146,83 @@ function showRowContent(row) {
 
     copyToClipboard(joinedData);  // 复制 joinedData 到剪贴板
 }
+
+
+// 
+function convertToLunar() {
+    // 获取用户输入的年、月、日期
+    var inputYear = parseInt(document.getElementById("year").value);
+    var inputMonth = parseInt(document.getElementById("month").value);
+    var inputDay = parseInt(document.getElementById("day").value);
+
+    // 输入日期轉農曆
+    var inputDate = Solar.fromYmd(inputYear, inputMonth, inputDay);
+    var lunar = inputDate.getLunar();
+
+    // 在JSON中查詢年份
+    var lunarYear = lunar.getYear();   // 获取农历年份
+    const data = JSON.parse(jsonData)
+    var result = data.filter(item => item.west == lunarYear);  // 查詢出年份
+    let filterYear = '';
+
+    if (result.length > 0) {  // 如果查詢結果大於0
+        var filteredItem = result[0];
+        if (filteredItem.qing) {
+            filterYear = filteredItem.qing;  // 有清朝年號
+        } else {
+            filterYear = filteredItem.taiwan;  // 沒清朝年號顯示台灣年號
+        }
+    } else {
+        // console.log("No matching items found");
+        Swal.fire({
+            title: `資料庫查不到${lunarYear}年!`,
+            icon: 'error',
+            timer: 10000,
+        })
+    }
+
+    // 輸出結果前整理字串
+    console.log(lunar.toFullString());
+    console.log(`${lunar.getYear()}年${lunar.getMonth()}月${lunar.getDay()}日`);
+
+    // console.log(result);
+    // console.log(result[0].taiwan);
+    // const yearInTaiwan = result[0].taiwan;
+    // const yearInChinese = lunar.getYearInChinese();
+    let monthInChinese = lunar.getMonthInChinese();
+    let dayInChinese = lunar.getDayInChinese();
+    filterYear = filterYear.replace(/\s/g, "");
+    monthInChinese = monthInChinese.replace(/正/g, "元");
+    monthInChinese = monthInChinese.replace(/冬/g, "十一");
+    monthInChinese = monthInChinese.replace(/腊/g, "十二");
+    monthInChinese = monthInChinese.replace(/闰/g, "閏");
+    dayInChinese = dayInChinese.replace(/廿/g, "二十");
+    dayInChinese = dayInChinese.replace(/初/g, "");
+
+    const lunarResult = `${filterYear}年${monthInChinese}月${dayInChinese}日(歲次${lunar.getYearInGanZhi()})`;
+
+    // 顯示輸入的資訊
+    const userInputDate = `西元${inputYear}年${inputMonth}月${inputDay}日`;
+    var inputDisplay = document.getElementById('lunar_input');
+    inputDisplay.textContent = userInputDate;
+    // 顯示轉換農曆後的結果
+    var resultElementYear = document.getElementById('lunar_year_result');
+    resultElementYear.textContent = lunarResult;
+}
+
+// 點選轉農曆結果自動複製
+function handleLunarClick() {
+    var lunarYearResult = document.getElementById("lunar_year_result");
+    var textContent = lunarYearResult.textContent;
+    // console.log(textContent); // 打印获取到的textContent
+    copyToClipboard(textContent);
+}
+
+
+// 监听输入框的键盘事件，如果按下 Enter 键，则执行转换为农历的功能
+document.addEventListener("keydown", function (event) {
+    if (event.key === "Enter") {
+        event.preventDefault(); // 防止默认的 Enter 键提交行为
+        convertToLunar();
+    }
+});
