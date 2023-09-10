@@ -6,21 +6,45 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lunar-javascript/1.6.4/lunar.min.js"></script>
 </head>
 <body>
 <div class="year-wrap">
     <div class="container">
         <div class="row">
             <button onclick="topFunction()" id="gotopBtn" title="Go to top">Top</button>
-            <h1>中西曆年號歲次快速查詢對照表</h1>
+            <h1>國曆轉農曆快速查詢</h1>
             <div class="form-group gotoLunar">
                 <a class="btn btn-sm btn-outline-primary" id="openLunar"
                    onclick="window.open('https://sinocal.sinica.edu.tw/','_blank')">
-                    農曆換算&nbsp;&nbsp;<i class="fa fa-external-link-square" aria-hidden="true"></i>
+                    農曆換算參考&nbsp;&nbsp;<i class="fa fa-external-link-square" aria-hidden="true"></i>
                 </a>
                 <em> 由中研院計算中心製作：兩千年中西曆轉換</em>
             </div>
+            </div>
+
+<div class="row">
+    <div class="col">
+        <input type="number" id="year" class="form-control" min="1900" max="2100" required placeholder="西元年">
+    </div>
+    <div class="col">
+        <input type="number" id="month" class="form-control" min="1" max="12" required placeholder="月">
+    </div>
+    <div class="col">
+        <input type="number" id="day" class="form-control" min="1" max="31" required placeholder="日">
+    </div>
+</div>
+<center>
+<button onclick="convertToLunar()" class="btn btn-primary mt-3">國曆轉農曆</button>
+</center>
+<!-- <hr> -->
+<div class="lunar-display">
+    <div id="lunar_input"></div>
+    <h4 id="lunar_year_result" onclick="handleLunarClick()"></h4>
+</div>
+
             <hr>
+            <h1>中西曆年號歲次快速查詢對照表</h1>
             <div class="form-group col-md-12 filter-group">
                 <input type="text" class="form-control" placeholder="請輸入欲搜尋的中文或數字，如西元年、民國年、年號或歲次" id="filterText"
                        onkeyup="filterList()" onclick="this.setSelectionRange(0, this.value.length)">
@@ -56,6 +80,7 @@
     </div>
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
 <script src="chinese-western-years-map.js"></script>
 </body>
 </html>
