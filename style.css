@@ -106,8 +106,10 @@ background-color: oldlace;
 }
 #lunar_year_result {
   cursor: pointer;
+      /* display: inline-block; */
 }
 #lunar_year_result:hover {
-  background-color:#fc3d83;
+  background-color: #830000;
+    color: #fff;
 
 }
