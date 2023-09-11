@@ -106,6 +106,7 @@ function topFunction() {
 // Click to HighLight Row
 // ######################
 function clickRowHighlight() {
+    Swal.fire({ title: '點選反白已啟動!', icon: 'success', timer: 1000 })
     const rows = document.querySelectorAll('.table-row');
     rows.forEach((row, key) => {
         row.addEventListener('click', () => {
@@ -139,19 +140,20 @@ function copyToClipboard(text) {
 function showRowContent(row) {
     const tds = row.querySelectorAll('td');  // 获取当前行中的所有 <td> 元素
     const rowData = Array.from(tds).map(td => td.textContent.trim());  // 将每个 <td> 元素的文本内容去除空白，并放入数组中
-    // console.log(rowData);
     const filterRowData = rowData.filter(element => element !== "");
     const joinedData = filterRowData.join(' ');  // 将数组元素以逗号分隔连接成一行数据
-    console.log(joinedData);  // 输出拼接后的一行数据
+    // console.log(joinedData);  // 输出拼接后的一行数据
 
     copyToClipboard(joinedData);  // 复制 joinedData 到剪贴板
+    console.log(tds[0].textContent);
+    document.getElementById("inputYear").value = tds[0].textContent;
 }
 
 
 // 
 function convertToLunar() {
     // 获取用户输入的年、月、日期
-    var inputYear = parseInt(document.getElementById("year").value);
+    var inputYear = parseInt(document.getElementById("inputYear").value);
     var inputMonth = parseInt(document.getElementById("month").value);
     var inputDay = parseInt(document.getElementById("day").value);
 
@@ -182,8 +184,8 @@ function convertToLunar() {
     }
 
     // 輸出結果前整理字串
-    console.log(lunar.toFullString());
-    console.log(`${lunar.getYear()}年${lunar.getMonth()}月${lunar.getDay()}日`);
+    // console.log(lunar.toFullString());
+    // console.log(`${lunar.getYear()}年${lunar.getMonth()}月${lunar.getDay()}日`);
 
     // console.log(result);
     // console.log(result[0].taiwan);
