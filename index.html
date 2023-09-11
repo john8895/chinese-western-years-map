@@ -25,7 +25,7 @@
 
 <div class="row">
     <div class="col">
-        <input type="text" id="year" class="form-control" min="1900" max="2100" required placeholder="西元年" onclick="this.setSelectionRange(0, this.value.length)">
+        <input type="text" id="inputYear" class="form-control" min="1900" max="2100" required placeholder="西元年" onclick="this.setSelectionRange(0, this.value.length)">
     </div>
     <div class="col">
         <input type="text" id="month" class="form-control" min="1" max="12" required placeholder="月" onclick="this.setSelectionRange(0, this.value.length)">
@@ -40,7 +40,7 @@
 <!-- <hr> -->
 <div class="lunar-display">
     <div id="lunar_input"></div>
-    <h4 id="lunar_year_result" onclick="handleLunarClick()"></h4>
+    <h4 id="lunar_year_result" onclick="handleLunarClick()" title="點選自動複製"></h4>
 </div>
 
             <hr>
