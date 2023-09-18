@@ -5,7 +5,7 @@ var jsonData;
 // window.addEventListener('load', focusFun);
 window.addEventListener('load', () => {
     // focusFun();
-    clickRowHighlight();
+    // clickRowHighlight();
 });
 
 function focusFun() {
@@ -40,6 +40,7 @@ function getData(jData) {
         trObj.classList.add('table-row', `row-${id}`);
         tbody.appendChild(trObj);
     })
+     clickRowHighlight();
 }
 
 
