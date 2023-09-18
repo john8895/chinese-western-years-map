@@ -2,12 +2,6 @@ var jsonData;
 // ######################
 // Window Onload Focus Input
 // ######################
-// window.addEventListener('load', focusFun);
-window.addEventListener('load', () => {
-    // focusFun();
-    // clickRowHighlight();
-});
-
 function focusFun() {
     const input = document.getElementById('filterText');
     input.focus();
@@ -40,7 +34,7 @@ function getData(jData) {
         trObj.classList.add('table-row', `row-${id}`);
         tbody.appendChild(trObj);
     })
-     clickRowHighlight();
+    clickRowHighlight();
 }
 
 
@@ -107,9 +101,7 @@ function topFunction() {
 // Click to HighLight Row
 // ######################
 function clickRowHighlight() {
-    // Swal.fire({ title: '點選反白已啟動!', icon: 'success', timer: 1000 })
     const rows = document.querySelectorAll('.table-row');
-     console.log(rows);
     rows.forEach((row, key) => {
         row.addEventListener('click', () => {
             const target = row.getAttribute('style');
@@ -122,17 +114,11 @@ function clickRowHighlight() {
         })
     })
 }
-// onload = function() { clickRowHighlight(); }
 
 function copyToClipboard(text) {
     navigator.clipboard.writeText(text)  // 使用 Clipboard API 写入文本到剪贴板
         .then(() => {
-            console.log('Text copied to clipboard');
-            // Swal.fire({
-            //     title: '已複製到剪貼簿!',
-            //     icon: 'success',
-            //     timer: 1000,
-            // })
+            // console.log('Text copied to clipboard');
         })
         .catch(err => {
             console.error('Failed to copy text: ', err);
@@ -145,9 +131,7 @@ function showRowContent(row) {
     const filterRowData = rowData.filter(element => element !== "");
     const joinedData = filterRowData.join(' ');  // 将数组元素以逗号分隔连接成一行数据
     // console.log(joinedData);  // 输出拼接后的一行数据
-
     copyToClipboard(joinedData);  // 复制 joinedData 到剪贴板
-    console.log(tds[0].textContent);
     document.getElementById("inputYear").value = tds[0].textContent;
 }
 
@@ -177,7 +161,6 @@ function convertToLunar() {
             filterYear = filteredItem.taiwan;  // 沒清朝年號顯示台灣年號
         }
     } else {
-        // console.log("No matching items found");
         Swal.fire({
             title: `資料庫查不到${lunarYear}年!`,
             icon: 'error',
@@ -186,13 +169,6 @@ function convertToLunar() {
     }
 
     // 輸出結果前整理字串
-    // console.log(lunar.toFullString());
-    // console.log(`${lunar.getYear()}年${lunar.getMonth()}月${lunar.getDay()}日`);
-
-    // console.log(result);
-    // console.log(result[0].taiwan);
-    // const yearInTaiwan = result[0].taiwan;
-    // const yearInChinese = lunar.getYearInChinese();
     let monthInChinese = lunar.getMonthInChinese();
     let dayInChinese = lunar.getDayInChinese();
     filterYear = filterYear.replace(/\s/g, "");
@@ -218,7 +194,6 @@ function convertToLunar() {
 function handleLunarClick() {
     var lunarYearResult = document.getElementById("lunar_year_result");
     var textContent = lunarYearResult.textContent;
-    // console.log(textContent); // 打印获取到的textContent
     copyToClipboard(textContent);
 }
 
