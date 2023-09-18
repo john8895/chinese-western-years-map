@@ -106,8 +106,9 @@ function topFunction() {
 // Click to HighLight Row
 // ######################
 function clickRowHighlight() {
-    Swal.fire({ title: '點選反白已啟動!', icon: 'success', timer: 1000 })
+    // Swal.fire({ title: '點選反白已啟動!', icon: 'success', timer: 1000 })
     const rows = document.querySelectorAll('.table-row');
+     console.log(rows);
     rows.forEach((row, key) => {
         row.addEventListener('click', () => {
             const target = row.getAttribute('style');
@@ -126,11 +127,11 @@ function copyToClipboard(text) {
     navigator.clipboard.writeText(text)  // 使用 Clipboard API 写入文本到剪贴板
         .then(() => {
             console.log('Text copied to clipboard');
-            Swal.fire({
-                title: '已複製到剪貼簿!',
-                icon: 'success',
-                timer: 1000,
-            })
+            // Swal.fire({
+            //     title: '已複製到剪貼簿!',
+            //     icon: 'success',
+            //     timer: 1000,
+            // })
         })
         .catch(err => {
             console.error('Failed to copy text: ', err);
