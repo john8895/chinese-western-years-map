@@ -1,5 +1,1097 @@
 [
-      {  
+  {
+    "west": "1465",
+    "ming": "成化元",
+    "taiwan": "",
+    "japan": "",
+    "china": "乙酉"
+  },
+  {
+    "west": "1466",
+    "ming": "成化 02",
+    "taiwan": "",
+    "japan": "",
+    "china": "丙戌"
+  },
+  {
+    "west": "1467",
+    "ming": "成化 03",
+    "taiwan": "",
+    "japan": "",
+    "china": "丁亥"
+  },
+  {
+    "west": "1468",
+    "ming": "成化 04",
+    "taiwan": "",
+    "japan": "",
+    "china": "戊子"
+  },
+  {
+    "west": "1469",
+    "ming": "成化 05",
+    "taiwan": "",
+    "japan": "",
+    "china": "己丑"
+  },
+  {
+    "west": "1470",
+    "ming": "成化 06",
+    "taiwan": "",
+    "japan": "",
+    "china": "庚寅"
+  },
+  {
+    "west": "1471",
+    "ming": "成化 07",
+    "taiwan": "",
+    "japan": "",
+    "china": "辛卯"
+  },
+  {
+    "west": "1472",
+    "ming": "成化 08",
+    "taiwan": "",
+    "japan": "",
+    "china": "壬辰"
+  },
+  {
+    "west": "1473",
+    "ming": "成化 09",
+    "taiwan": "",
+    "japan": "",
+    "china": "癸巳"
+  },
+  {
+    "west": "1474",
+    "ming": "成化 10",
+    "taiwan": "",
+    "japan": "",
+    "china": "甲午"
+  },
+  {
+    "west": "1475",
+    "ming": "成化 11",
+    "taiwan": "",
+    "japan": "",
+    "china": "乙未"
+  },
+  {
+    "west": "1476",
+    "ming": "成化 12",
+    "taiwan": "",
+    "japan": "",
+    "china": "丙申"
+  },
+  {
+    "west": "1477",
+    "ming": "成化 13",
+    "taiwan": "",
+    "japan": "",
+    "china": "丁酉"
+  },
+  {
+    "west": "1478",
+    "ming": "成化 14",
+    "taiwan": "",
+    "japan": "",
+    "china": "戊戌"
+  },
+  {
+    "west": "1479",
+    "ming": "成化 15",
+    "taiwan": "",
+    "japan": "",
+    "china": "己亥"
+  },
+  {
+    "west": "1480",
+    "ming": "成化 16",
+    "taiwan": "",
+    "japan": "",
+    "china": "庚子"
+  },
+  {
+    "west": "1481",
+    "ming": "成化 17",
+    "taiwan": "",
+    "japan": "",
+    "china": "辛丑"
+  },
+  {
+    "west": "1482",
+    "ming": "成化 18",
+    "taiwan": "",
+    "japan": "",
+    "china": "壬寅"
+  },
+  {
+    "west": "1483",
+    "ming": "成化 19",
+    "taiwan": "",
+    "japan": "",
+    "china": "癸卯"
+  },
+  {
+    "west": "1484",
+    "ming": "成化 20",
+    "taiwan": "",
+    "japan": "",
+    "china": "甲辰"
+  },
+  {
+    "west": "1485",
+    "ming": "成化 21",
+    "taiwan": "",
+    "japan": "",
+    "china": "乙巳"
+  },
+  {
+    "west": "1486",
+    "ming": "成化 22",
+    "taiwan": "",
+    "japan": "",
+    "china": "丙午"
+  },
+  {
+    "west": "1487",
+    "ming": "成化 23",
+    "taiwan": "",
+    "japan": "",
+    "china": "丁未"
+  },
+  {
+    "west": "1488",
+    "ming": "弘治元",
+    "taiwan": "",
+    "japan": "",
+    "china": "戊申"
+  },
+  {
+    "west": "1489",
+    "ming": "弘治 02",
+    "taiwan": "",
+    "japan": "",
+    "china": "己酉"
+  },
+  {
+    "west": "1490",
+    "ming": "弘治 03",
+    "taiwan": "",
+    "japan": "",
+    "china": "庚戌"
+  },
+  {
+    "west": "1491",
+    "ming": "弘治 04",
+    "taiwan": "",
+    "japan": "",
+    "china": "辛亥"
+  },
+  {
+    "west": "1492",
+    "ming": "弘治 05",
+    "taiwan": "",
+    "japan": "",
+    "china": "壬子"
+  },
+  {
+    "west": "1493",
+    "ming": "弘治 06",
+    "taiwan": "",
+    "japan": "",
+    "china": "癸丑"
+  },
+  {
+    "west": "1494",
+    "ming": "弘治 07",
+    "taiwan": "",
+    "japan": "",
+    "china": "甲寅"
+  },
+  {
+    "west": "1495",
+    "ming": "弘治 08",
+    "taiwan": "",
+    "japan": "",
+    "china": "乙卯"
+  },
+  {
+    "west": "1496",
+    "ming": "弘治 09",
+    "taiwan": "",
+    "japan": "",
+    "china": "丙辰"
+  },
+  {
+    "west": "1497",
+    "ming": "弘治 10",
+    "taiwan": "",
+    "japan": "",
+    "china": "丁巳"
+  },
+  {
+    "west": "1498",
+    "ming": "弘治 11",
+    "taiwan": "",
+    "japan": "",
+    "china": "戊午"
+  },
+  {
+    "west": "1499",
+    "ming": "弘治 12",
+    "taiwan": "",
+    "japan": "",
+    "china": "己未"
+  },
+  {
+    "west": "1500",
+    "ming": "弘治 13",
+    "taiwan": "",
+    "japan": "",
+    "china": "庚申"
+  },
+  {
+    "west": "1501",
+    "ming": "弘治 14",
+    "taiwan": "",
+    "japan": "",
+    "china": "辛酉"
+  },
+  {
+    "west": "1502",
+    "ming": "弘治 15",
+    "taiwan": "",
+    "japan": "",
+    "china": "壬戌"
+  },
+  {
+    "west": "1503",
+    "ming": "弘治 16",
+    "taiwan": "",
+    "japan": "",
+    "china": "癸亥"
+  },
+  {
+    "west": "1504",
+    "ming": "弘治 17",
+    "taiwan": "",
+    "japan": "",
+    "china": "甲子"
+  },
+  {
+    "west": "1505",
+    "ming": "弘治 18",
+    "taiwan": "",
+    "japan": "",
+    "china": "乙丑"
+  },
+  {
+    "west": "1506",
+    "ming": "正德元",
+    "taiwan": "",
+    "japan": "",
+    "china": "丙寅"
+  },
+  {
+    "west": "1507",
+    "ming": "正德 02",
+    "taiwan": "",
+    "japan": "",
+    "china": "丁卯"
+  },
+  {
+    "west": "1508",
+    "ming": "正德 03",
+    "taiwan": "",
+    "japan": "",
+    "china": "戊辰"
+  },
+  {
+    "west": "1509",
+    "ming": "正德 04",
+    "taiwan": "",
+    "japan": "",
+    "china": "己巳"
+  },
+  {
+    "west": "1510",
+    "ming": "正德 05",
+    "taiwan": "",
+    "japan": "",
+    "china": "庚午"
+  },
+  {
+    "west": "1511",
+    "ming": "正德 06",
+    "taiwan": "",
+    "japan": "",
+    "china": "辛未"
+  },
+  {
+    "west": "1512",
+    "ming": "正德 07",
+    "taiwan": "",
+    "japan": "",
+    "china": "壬申"
+  },
+  {
+    "west": "1513",
+    "ming": "正德 08",
+    "taiwan": "",
+    "japan": "",
+    "china": "癸酉"
+  },
+  {
+    "west": "1514",
+    "ming": "正德 09",
+    "taiwan": "",
+    "japan": "",
+    "china": "甲戌"
+  },
+  {
+    "west": "1515",
+    "ming": "正德 10",
+    "taiwan": "",
+    "japan": "",
+    "china": "乙亥"
+  },
+  {
+    "west": "1516",
+    "ming": "正德 11",
+    "taiwan": "",
+    "japan": "",
+    "china": "丙子"
+  },
+  {
+    "west": "1517",
+    "ming": "正德 12",
+    "taiwan": "",
+    "japan": "",
+    "china": "丁丑"
+  },
+  {
+    "west": "1518",
+    "ming": "正德 13",
+    "taiwan": "",
+    "japan": "",
+    "china": "戊寅"
+  },
+  {
+    "west": "1519",
+    "ming": "正德 14",
+    "taiwan": "",
+    "japan": "",
+    "china": "己卯"
+  },
+  {
+    "west": "1520",
+    "ming": "正德 15",
+    "taiwan": "",
+    "japan": "",
+    "china": "庚辰"
+  },
+  {
+    "west": "1521",
+    "ming": "正德 16",
+    "taiwan": "",
+    "japan": "",
+    "china": "辛巳"
+  },
+  {
+    "west": "1522",
+    "ming": "嘉靖元",
+    "taiwan": "",
+    "japan": "",
+    "china": "壬午"
+  },
+  {
+    "west": "1523",
+    "ming": "嘉靖 02",
+    "taiwan": "",
+    "japan": "",
+    "china": "癸未"
+  },
+  {
+    "west": "1524",
+    "ming": "嘉靖 03",
+    "taiwan": "",
+    "japan": "",
+    "china": "甲申"
+  },
+  {
+    "west": "1525",
+    "ming": "嘉靖 04",
+    "taiwan": "",
+    "japan": "",
+    "china": "乙酉"
+  },
+  {
+    "west": "1526",
+    "ming": "嘉靖 05",
+    "taiwan": "",
+    "japan": "",
+    "china": "丙戌"
+  },
+  {
+    "west": "1527",
+    "ming": "嘉靖 06",
+    "taiwan": "",
+    "japan": "",
+    "china": "丁亥"
+  },
+  {
+    "west": "1528",
+    "ming": "嘉靖 07",
+    "taiwan": "",
+    "japan": "",
+    "china": "戊子"
+  },
+  {
+    "west": "1529",
+    "ming": "嘉靖 08",
+    "taiwan": "",
+    "japan": "",
+    "china": "己丑"
+  },
+  {
+    "west": "1530",
+    "ming": "嘉靖 09",
+    "taiwan": "",
+    "japan": "",
+    "china": "庚寅"
+  },
+  {
+    "west": "1531",
+    "ming": "嘉靖 10",
+    "taiwan": "",
+    "japan": "",
+    "china": "辛卯"
+  },
+  {
+    "west": "1532",
+    "ming": "嘉靖 11",
+    "taiwan": "",
+    "japan": "",
+    "china": "壬辰"
+  },
+  {
+    "west": "1533",
+    "ming": "嘉靖 12",
+    "taiwan": "",
+    "japan": "",
+    "china": "癸巳"
+  },
+  {
+    "west": "1534",
+    "ming": "嘉靖 13",
+    "taiwan": "",
+    "japan": "",
+    "china": "甲午"
+  },
+  {
+    "west": "1535",
+    "ming": "嘉靖 14",
+    "taiwan": "",
+    "japan": "",
+    "china": "乙未"
+  },
+  {
+    "west": "1536",
+    "ming": "嘉靖 15",
+    "taiwan": "",
+    "japan": "",
+    "china": "丙申"
+  },
+  {
+    "west": "1537",
+    "ming": "嘉靖 16",
+    "taiwan": "",
+    "japan": "",
+    "china": "丁酉"
+  },
+  {
+    "west": "1538",
+    "ming": "嘉靖 17",
+    "taiwan": "",
+    "japan": "",
+    "china": "戊戌"
+  },
+  {
+    "west": "1539",
+    "ming": "嘉靖 18",
+    "taiwan": "",
+    "japan": "",
+    "china": "己亥"
+  },
+  {
+    "west": "1540",
+    "ming": "嘉靖 19",
+    "taiwan": "",
+    "japan": "",
+    "china": "庚子"
+  },
+  {
+    "west": "1541",
+    "ming": "嘉靖 20",
+    "taiwan": "",
+    "japan": "",
+    "china": "辛丑"
+  },
+  {
+    "west": "1542",
+    "ming": "嘉靖 21",
+    "taiwan": "",
+    "japan": "",
+    "china": "壬寅"
+  },
+  {
+    "west": "1543",
+    "ming": "嘉靖 22",
+    "taiwan": "",
+    "japan": "",
+    "china": "癸卯"
+  },
+  {
+    "west": "1544",
+    "ming": "嘉靖 23",
+    "taiwan": "",
+    "japan": "",
+    "china": "甲辰"
+  },
+  {
+    "west": "1545",
+    "ming": "嘉靖 24",
+    "taiwan": "",
+    "japan": "",
+    "china": "乙巳"
+  },
+  {
+    "west": "1546",
+    "ming": "嘉靖 25",
+    "taiwan": "",
+    "japan": "",
+    "china": "丙午"
+  },
+  {
+    "west": "1547",
+    "ming": "嘉靖 26",
+    "taiwan": "",
+    "japan": "",
+    "china": "丁未"
+  },
+  {
+    "west": "1548",
+    "ming": "嘉靖 27",
+    "taiwan": "",
+    "japan": "",
+    "china": "戊申"
+  },
+  {
+    "west": "1549",
+    "ming": "嘉靖 28",
+    "taiwan": "",
+    "japan": "",
+    "china": "己酉"
+  },
+  {
+    "west": "1550",
+    "ming": "嘉靖 29",
+    "taiwan": "",
+    "japan": "",
+    "china": "庚戌"
+  },
+  {
+    "west": "1551",
+    "ming": "嘉靖 30",
+    "taiwan": "",
+    "japan": "",
+    "china": "辛亥"
+  },
+  {
+    "west": "1552",
+    "ming": "嘉靖 31",
+    "taiwan": "",
+    "japan": "",
+    "china": "壬子"
+  },
+  {
+    "west": "1553",
+    "ming": "嘉靖 32",
+    "taiwan": "",
+    "japan": "",
+    "china": "癸丑"
+  },
+  {
+    "west": "1554",
+    "ming": "嘉靖 33",
+    "taiwan": "",
+    "japan": "",
+    "china": "甲寅"
+  },
+  {
+    "west": "1555",
+    "ming": "嘉靖 34",
+    "taiwan": "",
+    "japan": "",
+    "china": "乙卯"
+  },
+  {
+    "west": "1556",
+    "ming": "嘉靖 35",
+    "taiwan": "",
+    "japan": "",
+    "china": "丙辰"
+  },
+  {
+    "west": "1557",
+    "ming": "嘉靖 36",
+    "taiwan": "",
+    "japan": "",
+    "china": "丁巳"
+  },
+  {
+    "west": "1558",
+    "ming": "嘉靖 37",
+    "taiwan": "",
+    "japan": "",
+    "china": "戊午"
+  },
+  {
+    "west": "1559",
+    "ming": "嘉靖 38",
+    "taiwan": "",
+    "japan": "",
+    "china": "己未"
+  },
+  {
+    "west": "1560",
+    "ming": "嘉靖 39",
+    "taiwan": "",
+    "japan": "",
+    "china": "庚申"
+  },
+  {
+    "west": "1561",
+    "ming": "嘉靖 40",
+    "taiwan": "",
+    "japan": "",
+    "china": "辛酉"
+  },
+  {
+    "west": "1562",
+    "ming": "嘉靖 41",
+    "taiwan": "",
+    "japan": "",
+    "china": "壬戌"
+  },
+  {
+    "west": "1563",
+    "ming": "嘉靖 42",
+    "taiwan": "",
+    "japan": "",
+    "china": "癸亥"
+  },
+  {
+    "west": "1564",
+    "ming": "嘉靖 43",
+    "taiwan": "",
+    "japan": "",
+    "china": "甲子"
+  },
+  {
+    "west": "1565",
+    "ming": "嘉靖 44",
+    "taiwan": "",
+    "japan": "",
+    "china": "乙丑"
+  },
+  {
+    "west": "1566",
+    "ming": "嘉靖 45",
+    "taiwan": "",
+    "japan": "",
+    "china": "丙寅"
+  },
+  {
+    "west": "1567",
+    "ming": "隆慶元",
+    "taiwan": "",
+    "japan": "",
+    "china": "丁卯"
+  },
+  {
+    "west": "1568",
+    "ming": "隆慶 02",
+    "taiwan": "",
+    "japan": "",
+    "china": "戊辰"
+  },
+  {
+    "west": "1569",
+    "ming": "隆慶 03",
+    "taiwan": "",
+    "japan": "",
+    "china": "己巳"
+  },
+  {
+    "west": "1570",
+    "ming": "隆慶 04",
+    "taiwan": "",
+    "japan": "",
+    "china": "庚午"
+  },
+  {
+    "west": "1571",
+    "ming": "隆慶 05",
+    "taiwan": "",
+    "japan": "",
+    "china": "辛未"
+  },
+  {
+    "west": "1572",
+    "ming": "隆慶 06",
+    "taiwan": "",
+    "japan": "",
+    "china": "壬申"
+  },
+  {
+    "west": "1573",
+    "qing": "萬曆元",
+    "taiwan": "",
+    "japan": "",
+    "china": "癸酉"
+  },
+  {
+    "west": "1574",
+    "qing": "萬曆 02",
+    "taiwan": "",
+    "japan": "",
+    "china": "甲戌"
+  },
+  {
+    "west": "1575",
+    "qing": "萬曆 03",
+    "taiwan": "",
+    "japan": "",
+    "china": "乙亥"
+  },
+  {
+    "west": "1576",
+    "qing": "萬曆 04",
+    "taiwan": "",
+    "japan": "",
+    "china": "丙子"
+  },
+  {
+    "west": "1577",
+    "qing": "萬曆 05",
+    "taiwan": "",
+    "japan": "",
+    "china": "丁丑"
+  },
+  {
+    "west": "1578",
+    "qing": "萬曆 06",
+    "taiwan": "",
+    "japan": "",
+    "china": "戊寅"
+  },
+  {
+    "west": "1579",
+    "qing": "萬曆 07",
+    "taiwan": "",
+    "japan": "",
+    "china": "己卯"
+  },
+  {
+    "west": "1580",
+    "qing": "萬曆 08",
+    "taiwan": "",
+    "japan": "",
+    "china": "庚辰"
+  },
+  {
+    "west": "1581",
+    "qing": "萬曆 09",
+    "taiwan": "",
+    "japan": "",
+    "china": "辛巳"
+  },
+  {
+    "west": "1582",
+    "qing": "萬曆 10",
+    "taiwan": "",
+    "japan": "",
+    "china": "壬午"
+  },
+  {
+    "west": "1583",
+    "qing": "萬曆 11",
+    "taiwan": "",
+    "japan": "",
+    "china": "癸未"
+  },
+  {
+    "west": "1584",
+    "qing": "萬曆 12",
+    "taiwan": "",
+    "japan": "",
+    "china": "甲申"
+  },
+  {
+    "west": "1585",
+    "qing": "萬曆 13",
+    "taiwan": "",
+    "japan": "",
+    "china": "乙酉"
+  },
+  {
+    "west": "1586",
+    "qing": "萬曆 14",
+    "taiwan": "",
+    "japan": "",
+    "china": "丙戌"
+  },
+  {
+    "west": "1587",
+    "qing": "萬曆 15",
+    "taiwan": "",
+    "japan": "",
+    "china": "丁亥"
+  },
+  {
+    "west": "1588",
+    "qing": "萬曆 16",
+    "taiwan": "",
+    "japan": "",
+    "china": "戊子"
+  },
+  {
+    "west": "1589",
+    "qing": "萬曆 17",
+    "taiwan": "",
+    "japan": "",
+    "china": "己丑"
+  },
+  {
+    "west": "1590",
+    "qing": "萬曆 18",
+    "taiwan": "",
+    "japan": "",
+    "china": "庚寅"
+  },
+  {
+    "west": "1591",
+    "qing": "萬曆 19",
+    "taiwan": "",
+    "japan": "",
+    "china": "辛卯"
+  },
+  {
+    "west": "1592",
+    "qing": "萬曆 20",
+    "taiwan": "",
+    "japan": "",
+    "china": "壬辰"
+  },
+  {
+    "west": "1593",
+    "qing": "萬曆 21",
+    "taiwan": "",
+    "japan": "",
+    "china": "癸巳"
+  },
+  {
+    "west": "1594",
+    "qing": "萬曆 22",
+    "taiwan": "",
+    "japan": "",
+    "china": "甲午"
+  },
+  {
+    "west": "1595",
+    "qing": "萬曆 23",
+    "taiwan": "",
+    "japan": "",
+    "china": "乙未"
+  },
+  {
+    "west": "1596",
+    "qing": "萬曆 24",
+    "taiwan": "",
+    "japan": "",
+    "china": "丙申"
+  },
+  {
+    "west": "1597",
+    "qing": "萬曆 25",
+    "taiwan": "",
+    "japan": "",
+    "china": "丁酉"
+  },
+  {
+    "west": "1598",
+    "qing": "萬曆 26",
+    "taiwan": "",
+    "japan": "",
+    "china": "戊戌"
+  },
+  {
+    "west": "1599",
+    "qing": "萬曆 27",
+    "taiwan": "",
+    "japan": "",
+    "china": "己亥"
+  },
+  {
+    "west": "1600",
+    "qing": "萬曆 28",
+    "taiwan": "",
+    "japan": "",
+    "china": "庚子"
+  },
+  {
+    "west": "1601",
+    "qing": "萬曆 29",
+    "taiwan": "",
+    "japan": "",
+    "china": "辛丑"
+  },
+  {
+    "west": "1602",
+    "qing": "萬曆 30",
+    "taiwan": "",
+    "japan": "",
+    "china": "壬寅"
+  },
+  {
+    "west": "1603",
+    "qing": "萬曆 31",
+    "taiwan": "",
+    "japan": "",
+    "china": "癸卯"
+  },
+  {
+    "west": "1604",
+    "qing": "萬曆 32",
+    "taiwan": "",
+    "japan": "",
+    "china": "甲辰"
+  },
+  {
+    "west": "1605",
+    "qing": "萬曆 33",
+    "taiwan": "",
+    "japan": "",
+    "china": "乙巳"
+  },
+  {
+    "west": "1606",
+    "qing": "萬曆 34",
+    "taiwan": "",
+    "japan": "",
+    "china": "丙午"
+  },
+  {
+    "west": "1607",
+    "qing": "萬曆 35",
+    "taiwan": "",
+    "japan": "",
+    "china": "丁未"
+  },
+  {
+    "west": "1608",
+    "qing": "萬曆 36",
+    "taiwan": "",
+    "japan": "",
+    "china": "戊申"
+  },
+  {
+    "west": "1609",
+    "qing": "萬曆 37",
+    "taiwan": "",
+    "japan": "",
+    "china": "己酉"
+  },
+  {
+    "west": "1610",
+    "qing": "萬曆 38",
+    "taiwan": "",
+    "japan": "",
+    "china": "庚戌"
+  },
+  {
+    "west": "1611",
+    "qing": "萬曆 39",
+    "taiwan": "",
+    "japan": "",
+    "china": "辛亥"
+  },
+  {
+    "west": "1612",
+    "qing": "萬曆 40",
+    "taiwan": "",
+    "japan": "",
+    "china": "壬子"
+  },
+  {
+    "west": "1613",
+    "qing": "萬曆 41",
+    "taiwan": "",
+    "japan": "",
+    "china": "癸丑"
+  },
+  {
+    "west": "1614",
+    "qing": "萬曆 42",
+    "taiwan": "",
+    "japan": "",
+    "china": "甲寅"
+  },
+  {
+    "west": "1615",
+    "qing": "萬曆 43",
+    "taiwan": "",
+    "japan": "",
+    "china": "乙卯"
+  },
+  {
+    "west": "1616",
+    "qing": "萬曆 44",
+    "taiwan": "",
+    "japan": "",
+    "china": "丙辰"
+  },
+  {
+    "west": "1617",
+    "qing": "萬曆 45",
+    "taiwan": "",
+    "japan": "",
+    "china": "丁巳"
+  },
+  {
+    "west": "1618",
+    "qing": "萬曆 46",
+    "taiwan": "",
+    "japan": "",
+    "china": "戊午"
+  },
+  {
+    "west": "1619",
+    "qing": "萬曆 47",
+    "taiwan": "",
+    "japan": "",
+    "china": "己未"
+  },
+  {
+    "west": "1620",
+    "qing": "萬曆 48",
+    "taiwan": "",
+    "japan": "",
+    "china": "庚申"
+  },
+  {  
     "west": "1621",  
     "qing": "天啓元",  
     "taiwan": "",  
