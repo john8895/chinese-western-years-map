@@ -64,15 +64,28 @@ function filterList() {
 
     rows.forEach(row => row.style.background = '');  // Remove All Rows Background Color
 
+    // 將全型數字轉換為半型數字的函數  
+    function toHalfWidth(str) {  
+        return str.replace(/[\uFF10-\uFF19]/g, function(match) {  
+            return String.fromCharCode(match.charCodeAt(0) - 0xFEE0);  
+        });  
+    }  
+
+    const normalizedInput = toHalfWidth(input); 
+    
     //依 tr => td 依序搜尋比對，只要每一列比對到有相同的資料，就顯示該列
     for (let i = 0; i < trObj.length; i++) {
         const tdObj = trObj[i].getElementsByTagName('td');
         let limit = 0;
         for (let j = 0; j < tdObj.length; j++) {
             const textValue = tdObj[j].innerText || tdObj[j].textContent;
-            if (textValue.indexOf(input) > -1) {
-                limit++;
-            }
+            const normalizedTextValue = toHalfWidth(textValue);  
+            if (normalizedTextValue.indexOf(normalizedInput) > -1) {  
+                limit++;  
+            } 
+            // if (textValue.indexOf(input) > -1) {
+            //     limit++;
+            // }
         }
         //如果比對到資料，就給table-row，否則隱藏
         trObj[i].style.display = limit > 0 ? "table-row" : "none";
