@@ -188,6 +188,7 @@ function convertToLunar() {
     monthInChinese = monthInChinese.replace(/正/g, "元");
     monthInChinese = monthInChinese.replace(/冬/g, "十一");
     monthInChinese = monthInChinese.replace(/腊/g, "十二");
+    monthInChinese = monthInChinese.replace(/臘/g, "十二");
     monthInChinese = monthInChinese.replace(/闰/g, "閏");
     dayInChinese = dayInChinese.replace(/廿/g, "二十");
     dayInChinese = dayInChinese.replace(/初/g, "");
