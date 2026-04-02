@@ -2,48 +2,49 @@
 <html lang="zh-Hant">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>中西曆年號歲次快速查詢對照表</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lunar-javascript/1.6.4/lunar.min.js"></script>
+    <script src="calendarData.js"></script>
+    <script src="calendar-core.js"></script>
 </head>
 <body>
 <div class="year-wrap">
     <div class="container">
         <div class="row">
-            <button onclick="topFunction()" id="gotopBtn" title="Go to top">Top</button>
+            <button onclick="topFunction()" id="gotopBtn" title="回到頂端" style="display:none">Top</button>
             <h1>國曆轉農曆快速查詢&nbsp;<small><a href="https://www.真相.tw" target="_blank" title="前往靈媒阿翰的部落格">(本服務由靈媒阿翰提供)</a></small></h1>
             <div class="form-group gotoLunar">
-                <a class="btn btn-sm btn-outline-primary mr-2" id="openLunar"
+                <a class="btn btn-sm btn-outline-primary mr-2 external-link-btn"
                    onclick="window.open('https://sinocal.sinica.edu.tw/','_blank')">
                     農曆換算(中研院)&nbsp;&nbsp;<i class="fa fa-external-link-square" aria-hidden="true"></i>
                 </a>
-                <a class="btn btn-sm btn-outline-primary mr-2" id="openLunar" href="12time.png" target="_blank">
+                <a class="btn btn-sm btn-outline-primary mr-2 external-link-btn" href="12time.png" target="_blank">
                     天干地支時辰&nbsp;&nbsp;<i class="fa fa-external-link-square" aria-hidden="true"></i>
                 </a>
-                <a class="btn btn-sm btn-outline-primary" id="openLunar" href="stems.png" target="_blank">
+                <a class="btn btn-sm btn-outline-primary external-link-btn" href="stems.png" target="_blank">
                     天干地支表&nbsp;&nbsp;<i class="fa fa-external-link-square" aria-hidden="true"></i>
                 </a>
             </div>
-            </div>
+        </div>
 
 <div class="row">
     <div class="col">
-        <input type="text" id="inputYear" class="form-control" min="1900" max="2100" required placeholder="西元年" onclick="this.setSelectionRange(0, this.value.length)">
+        <input type="number" id="inputYear" class="form-control" min="1201" max="2199" placeholder="西元年" onclick="this.select()">
     </div>
     <div class="col">
-        <input type="text" id="month" class="form-control" min="1" max="12" required placeholder="月" onclick="this.setSelectionRange(0, this.value.length)">
+        <input type="number" id="month" class="form-control" min="1" max="12" placeholder="月" onclick="this.select()">
     </div>
     <div class="col">
-        <input type="text" id="day" class="form-control" min="1" max="31" required placeholder="日" onclick="this.setSelectionRange(0, this.value.length)">
+        <input type="number" id="day" class="form-control" min="1" max="31" placeholder="日" onclick="this.select()">
     </div>
 </div>
-<center>
-<button onclick="convertToLunar()" class="btn btn-primary mt-3">國曆轉農曆</button>
-</center>
-<!-- <hr> -->
-<div class="lunar-display">
+<div class="text-center">
+    <button onclick="convertToLunar()" class="btn btn-primary mt-3">國曆轉農曆</button>
+</div>
+<div class="lunar-display" style="display:none">
     <div id="lunar_input"></div>
     <h4 id="lunar_year_result" onclick="handleLunarClick()" title="點選自動複製"></h4>
 </div>
@@ -52,7 +53,7 @@
             <h1>中西曆年號歲次快速查詢對照表</h1>
             <div class="form-group col-md-12 filter-group">
                 <input type="text" class="form-control" placeholder="請輸入欲搜尋的中文或數字，如西元年、民國年、年號或歲次" id="filterText"
-                       onkeyup="filterList()" onclick="this.setSelectionRange(0, this.value.length)">
+                       onkeyup="filterList()" onclick="this.select()">
             </div>
             <div class="table-responsive">
                 <table class="table year-table table-bordered table-hover table-sm" id="year-table">
@@ -76,6 +77,7 @@
         </div>
     </div>
 </div>
+<div id="copy-toast" class="copy-toast">已複製</div>
 <footer>
     <div class="container-fluid">
         <div class="row">
@@ -85,7 +87,6 @@
     </div>
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-
 <script src="chinese-western-years-map.js"></script>
 </body>
 </html>

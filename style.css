@@ -48,10 +48,7 @@
   transition: 0.3s ease-in-out 0.1s;
   opacity: 1;
 }
-.year-wrap #prompt {
-  display: none;
-}
-.year-wrap #openLunar:hover {
+.year-wrap .external-link-btn:hover {
   color: #fff;
 }
 .year-wrap .gotoLunar em {
@@ -72,7 +69,7 @@ footer .copyright {
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.27);
 }
 footer .copyright a {
-  color: #c1c1c1;
+  color: #bdbdbd;
 }
 footer .copyright a:hover {
   color: #fff;
@@ -94,22 +91,38 @@ footer .copyright a:hover {
 .year-wrap .table-row {
   cursor: pointer;
 }
+.year-wrap .row-highlighted {
+  background-color: #fffa4c !important;
+}
 
-/*# sourceMappingURL=style.css.map */
+.copy-toast {
+  position: fixed;
+  bottom: 70px;
+  right: 30px;
+  background: rgba(0, 0, 0, 0.75);
+  color: #fff;
+  padding: 6px 14px;
+  border-radius: 4px;
+  font-size: 13px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+  z-index: 100;
+}
+.copy-toast.show {
+  opacity: 1;
+}
 
 .lunar-display {
-  text-align: center;
-background-color: oldlace;
-  padding: 12px 5px 2px;
-  border: 3px dotted #ecbb5d;
-  margin-top: 10px;
+  margin: 12px 0;
+  padding: 10px 16px;
+  background: oldlace;
+  border: 1px dotted goldenrod;
+  border-radius: 4px;
 }
-#lunar_year_result {
+.lunar-display #lunar_year_result {
   cursor: pointer;
-      /* display: inline-block; */
 }
-#lunar_year_result:hover {
-  background-color: #830000;
-    color: #fff;
-
+.lunar-display #lunar_year_result:hover {
+  color: #830000;
 }

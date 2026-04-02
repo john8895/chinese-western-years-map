@@ -47,17 +47,13 @@
         opacity: 0.85;
 
         &:hover {
-            background-color: darken(#00BCD4, 5%);
+            background-color: #00a5bb;
             transition: .3s ease-in-out .1s;
             opacity: 1;
         }
     }
 
-    #prompt {
-        display: none;
-    }
-
-    #openLunar {
+    .external-link-btn {
         &:hover {
             color: #fff;
         }
@@ -86,7 +82,7 @@ footer {
         //position: fixed;
         //bottom: 0;
         a {
-            color: lighten(#a7a7a7, 10%);
+            color: #bdbdbd;
 
             &:hover {
                 color: #fff;
@@ -122,5 +118,45 @@ footer {
 
     .table-row {
         cursor: pointer;
+    }
+
+    .row-highlighted {
+        background-color: #fffa4c !important;
+    }
+}
+
+// Copy toast notification
+.copy-toast {
+    position: fixed;
+    bottom: 70px;
+    right: 30px;
+    background: rgba(0, 0, 0, 0.75);
+    color: #fff;
+    padding: 6px 14px;
+    border-radius: 4px;
+    font-size: 13px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+    z-index: 100;
+
+    &.show {
+        opacity: 1;
+    }
+}
+
+// Lunar result display
+.lunar-display {
+    margin: 12px 0;
+    padding: 10px 16px;
+    background: oldlace;
+    border: 1px dotted goldenrod;
+    border-radius: 4px;
+
+    #lunar_year_result {
+        cursor: pointer;
+        &:hover {
+            color: #830000;
+        }
     }
 }
